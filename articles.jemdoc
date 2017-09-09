@@ -1,0 +1,69 @@
+# jemdoc: menu{menu}{articles.html}, addcss{css/jemdoc.css}, notime
+# jemdoc: addcss{bibover.css}
+#include{myrefs.jeminc} 
+= Publications
+
+#== Preprints/arXiv-ed articles
+
+== Journal Publications
+
+== Refereed Conference Publications
+. *Robust Regression via Hard Thresholding*,\n
+	Kush Bhatia, Prateek Jain, and P.K. ,\n
+	29th Annual Conference on Neural Information Processing Systems (*NIPS*), 2015,\n
+	Also at the IEEE Information Theory Workshop (*ITW*), October 11-15, 2015 (Invited Paper).\n
+	arXiv : 1506.02428 \[cs.LG\], 2015.\n
+	[papers/rr-torrent.pdf \[pdf\]] [javascript:cite('JainMD08¡¯) mark]
+. *Sparse Local Embeddings for Extreme Multi-label Classification*,\n
+	Kush Bhatia, Himanshu Jain, P.K., Manik Varma, and Prateek Jain,\n
+	29th Annual Conference on Neural Information Processing Systems (*NIPS*), 2015,\n
+	Also at the ICML Workshop on Extreme Classification, July 10, 2015.\n
+	arXiv : 1507.02743 \[cs.LG\], 2015.\n
+	[papers/x1.pdf \[pdf\]]
+. *Surrogate Functions for Maximizing Precision at the Top*,\n
+	P. K., Harikrishna Narasimhan, and Prateek Jain,\n
+	32nd International Conference on Machine Learning (*ICML*), 2015.\n
+	Journal of Machine Learning Research (*JMLR*), W&CP, 37, 2015,\n
+	arXiv: 1505.06813 \[stat.ML\], 2015.\n
+	[papers/preck.pdf \[pdf\]]
+. *Optimizing Non-decomposable Performance Measures: A Tale of Two Classes*,\n
+	Harikrishna Narasimhan, P. K., and Prateek Jain,\n
+	32nd International Conference on Machine Learning (*ICML*), 2015.\n
+	Journal of Machine Learning Research (*JMLR*), W&CP, 37, 2015,\n
+	arXiv: 1505.06812 \[stat.ML\], 2015.\n
+	[papers/sgd-tpr-tnr.pdf \[pdf\]]
+. *Online and Stochastic Gradient Methods for Non-decomposable Loss Functions*,\n
+	P. K., Harikrishna Narasimhan, and Prateek Jain,\n
+	28th Annual Conference on Neural Information Processing Systems (*NIPS*), 2014,\n
+	Also at the Symposium on Learning, Algorithms and Complexity (*LAC*), IISc, January 5-9, 2015,\n
+	arXiv: 1410.6776 \[cs.LG\], 2014.\n
+	[papers/nondecomp.pdf \[pdf\]]
+. *On Iterative Hard Thresholding Methods for High-dimensional M-Estimation*,\n
+	Prateek Jain, Ambuj Tewari, and P. K.,\n
+	28th Annual Conference on Neural Information Processing Systems (*NIPS*), 2014,\n
+	Also at the 22nd International Symposium on Mathematical Programming (*ISMP*), 2015,\n
+	Also at the 7th NIPS Workshop on Optimization for Machine Learning (*OPT*), December 12-13, 2014,\n
+	arXiv: 1410.5137 \[cs.LG\], 2014.\n
+	[papers/rsc-iht.pdf \[pdf\]]
+. *Large-scale Multi-label Learning with Missing Labels*,\n
+	Hsiang-Fu Yu, Prateek Jain, P. K., and Inderjit S. Dhillon,\n
+	31st International Conference on Machine Learning (*ICML*), 2014,\n
+	Journal of Machine Learning Research (*JMLR*), W&CP, 32(1):593-601, 2014,\n
+	arXiv: 1307.5101 \[cs.LG\], 2013.\n
+	[papers/leml.pdf \[pdf\]]
+. *On the Generalization Ability of Online Learning Algorithms for Pairwise Loss Functions*,\n
+	P. K., Bharath Sriperumbudur, Prateek Jain, and Harish Karnick,\n
+	30th International Conference on Machine Learning (*ICML*), 2013 (/Oral Presentation/),\n
+	Journal of Machine Learning Research (*JMLR*), W&CP, 28(3):441-449, 2013,\n
+	arXiv: 1305.2505 \[cs.LG\], 2013.\n
+	[papers/onlinepairwise.pdf \[pdf\]]
+. *Supervised Learning with Similarity Functions*,\n
+	P. K. and Prateek Jain,\n
+	26th Annual Conference on Neural Information Processing Systems (*NIPS*), 2012,\n
+	arXiv: 1210.5840 \[cs.LG\], 2012.\n
+	[papers/supsim.pdf \[pdf\]]
+. *Similarity-based Learning via Data driven Embeddings*,\n
+	P. K. and Prateek Jain,\n
+	25th Annual Conference on Neural Information Processing Systems (*NIPS*), 2011,\n
+	arXiv: 1112.5404 \[cs.LG\], 2011.\n
+	[papers/dissim.pdf \[pdf\]]

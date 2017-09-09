@@ -1,0 +1,37 @@
+#item: \format{\bibtexkey}
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_\format{\bibtexkey}" onmousedown="javascript:lockMouse(event,'\format{\bibtexkey}')" onmouseup="javascript:unLockMouse(event,'\format{\bibtexkey}')">
+<div class="cross"><a href="javascript:closeCite('\format{\bibtexkey}')">X</a></div>
+<p>
+~~~
+
+/\format[RemoveBrackets,FormatChars]{\title}/\\n
+\begin{author}\format[AuthorLastFirstAbbrCommas,NoSpaceBetweenAbbreviations,RemoveTilde,FormatChars]{\author}\end{author}\\n
+\begin{publisher}\format[RemoveBrackets,FormatChars]{\publisher}\end{publisher}\begin{school}\format[RemoveBrackets,FormatChars]{\school}\end{school}\begin{journal}\format[RemoveBrackets,FormatChars]{\journal}\end{journal}\begin{institution}\format[RemoveBrackets,FormatChars]{\institution}\end{institution}\begin{booktitle}In \format[RemoveBrackets,FormatChars]{\booktitle}\end{booktitle}\begin{howpublished}, \format[RemoveBrackets,FormatChars]{\howpublished}\end{howpublished}\begin{month}, \format[RemoveBrackets,FormatChars]{\month}\end{month}\begin{year}, \format[RemoveBrackets]{\year}\end{year}\begin{volume}, Vol. \volume\end{volume}\begin{number} (\format[FormatPagesForHTML]{\number})\end{number}\begin{pages}, pp. \format[FormatPagesForHTML]{\pages}\end{pages}\\n
+[javascript:toggleBibtex('\format{\bibtexkey}') \\[BibTeX\\]]\begin{doi} [\format[DOICheck]{\doi} \\[DOI\\]]\end{doi}
+~~~
+{}{raw}
+</p>
+<div id="bib_\format{\bibtexkey}" class="bibtex noshow" onmousedown="event.stopPropagation()" onmouseup="event.stopPropagation()">
+<pre>
+@\format[ToLowerCase]{\bibtextype}{\bibtexkey,\begin{author}
+  author = {\format[HTMLChars]{\author}}\end{author}\begin{title},
+  title = {\format[HTMLChars]{\title}}\end{title}\begin{booktitle},
+  booktitle = {\format[HTMLChars]{\booktitle}}\end{booktitle}\begin{journal},
+  journal = {\format[HTMLChars]{\journal}}\end{journal}\begin{publisher},
+  publisher = {\format[HTMLChars]{\publisher}}\end{publisher}\begin{institution},
+  institution = {\format[HTMLChars]{\institution}}\end{institution}\begin{school},
+  school = {\format[HTMLChars]{\school}}\end{school}\begin{year},
+  year = {\format[HTMLChars]{\year}}\end{year}\begin{volume},
+  volume = {\format[HTMLChars]{\volume}}\end{volume}\begin{number},
+  number = {\format[HTMLChars]{\number}}\end{number}\begin{pages},
+  pages = {\format[HTMLChars]{\pages}}\end{pages}\begin{edition},
+  edition = {\format[HTMLChars]{\edition}}\end{edition}\begin{note},
+  note = {\format[HTMLChars]{\note}}\end{note}\begin{url},
+  url = {\format[HTMLChars]{\url}}\end{url}\begin{doi},
+  doi = {\format[DOICheck]{\doi}}\end{doi}
+}
+</pre></div>
+</div>
+~~~

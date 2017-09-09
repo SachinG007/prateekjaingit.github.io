@@ -1,0 +1,29 @@
+div.noshow {display:none}
+div.bibover {
+        position: absolute;
+	margin-right: 0%;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	border: 1px solid silver;
+	padding: 0.3em 0.5em;
+	background: #ffffcc;
+}
+
+div.fixed {
+    border: 2px solid silver;
+}
+
+div.cross {
+    float: right;
+}
+
+div.bibtex {
+	margin-right: 0%;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 1px solid silver;
+	padding: 0.3em 0.5em;
+	background: #ffffee;
+}
+
+div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; }

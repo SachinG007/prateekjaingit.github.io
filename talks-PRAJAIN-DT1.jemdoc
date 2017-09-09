@@ -1,0 +1,73 @@
+# jemdoc: menu{menu}{talks.html}, addcss{css/jemdoc.css}, notime
+= Talks
+
+The list given below is the result of some divine power pushing me every now and then to overcome my perennial laziness and make slides for talks that I am supposed to give. Some of these talk slides were composed in the PPT format but I have tried to present most slides in the PDF format for uniformity.
+
+\n
+. *Surrogate Functions for Maximizing Precision at the Top*,\n
+	32nd International Conference on Machine Learning (*ICML*), Lille, France, July 6-11, 2015.\n
+	[slides/preck-icml15.pptx \[pptx-slides\]]
+. *An Introduction to Concentration Inequalities and Statistical Learning Theory*,\n
+	MSR India Summer School 2015 on Machine Learning, June 15-26, 2015.\n
+	[slides/msrss2015.pptx \[pptx-slides\]]
+. *Learning with Pairwise Losses*,\n
+	Course Lecture for E0 370: Statistical Learning Theory, October 29, 2013.\n
+	(Instructor: Prof. Shivani Agarwal, Dept. of CSA, IISc)\n
+	[slides/e0370-lecturepairwise.pdf \[pdf-slides\]]
+. *Online Learning with Pairwise Loss Functions*,\n
+	MLSIG Seminar Series, Dept. of CSA, IISc, September 12, 2013.\n
+	[slides/mlsig-iisconlinepairwise.pdf \[pdf-slides\]]
+. *A pre-Weekend Talk on Online Learning*,\n
+	TGIF Talk Series, Microsoft Research India, August 23, 2013.\n
+	[slides/online-tgif.pdf \[pdf-slides\]]
+. *Explicit Feature Methods for Accelerated Kernel Learning*,\n
+	Machine Learning and Optimization Group, Microsoft Research India, August 14, 2013.\n
+	[slides/rf-mlo.pdf \[pdf-slides\]]
+. *On the Generalization Ability of Online Learning Algorithms for Pairwise Loss Functions*,\n
+	30th International Conference on Machine Learning (*ICML*), Atlanta, Georgia, USA, June 16-21, 2013.\n
+	[slides/onlinepairwise-icml.pdf \[pdf-slides\]]
+. *Accelerated Kernel Learning*,\n
+	Department of CSE, IIT Gandhinagar, November 27, 2012.\n
+	[slides/rf-iitgn.pdf \[pdf-slides\]]
+. *Topics in Kernel Learning*,\n
+	Alan Turing Centenary Year Celebrations, Department of CSE, IIT Kanpur, October 10, 2012.\n
+	[slides/topics-turing.pdf \[pdf-slides\]]
+. *Random Features for Kernel Learning*,\n
+	Mysore Park Wokshop on Machine Learning, Infosys Campus Mysore, August 3, 2012.\n
+	[slides/rf-mysore.pdf \[pdf-slides\]]
+. *Learning with Similarity Functions*,\n
+	Machine Learning and Optimization Group, Microsoft Research India, July 18, 2012.\n
+	[slides/similarity-mlo.pdf \[pdf-slides\]]
+. *Similarity-based Learning via Data Driven Embeddings*,\n
+	CSE Departmental Colloquia, CSE/IITK, October 28, 2011.\n
+	[slides/dissim-depcol.pdf \[pdf-slides\]]
+. *Learning in Indefiniteness*,\n
+	A presentation I gave for my PhD State of the Art seminar, CSE/IITK, August 2, 2010.\n
+	[slides/indef-sota10.pdf \[pdf-slides\]]
+. *Algorithms for Processing Massive Data Sets*,\n
+	3rd International Symposium, Graduate School of Information, Production and Systems, Waseda University, Japan, March 10-11, 2010.\n
+	[slides/massive-waseda10.pdf \[pdf-slides\]]
+. *An Introduction to Computational Learning Theory*,\n
+	SIGML Seminar Series, CSE/IITK, January 23, 2010.\n
+	[slides/learn-sigml10.pdf \[pdf-slides\]]
+. *How to Hoodwink a Halfspace*,\n
+	A presentation I gave for my PhD comprehensive examination, CSE/IITK, January 12, 2010.\n
+	[slides/fool-comp10.pdf \[pdf-slides\]]
+. *On Low Distortion Embeddings of Statistical Distance Measures into Low Dimensional Spaces*,\n
+	20th International Conference on Database and Expert Systems Applications (*DEXA*), Linz, Austria, August 31-September 4, 2009.\n
+	[slides/embed-dexa09.pdf \[pdf-slides\]]
+. *Support Vector Machines and their Applications*,\n
+	Summer School on Expert Systems and Their Applications, Indian Institute of Information Technology, Allahabad, June 10-14, 2009.\n
+	[slides/svm-iiita09.pdf \[pdf-slides\]]
+. *Metric Embeddings and Applications in Computer Science*,\n
+	SIGTACS Seminar Series, CSE/IITK, January 10, 2009.\n
+	[slides/metric-sigtacs09.pdf \[pdf-slides\]]
+. *Semantic Structure of the Indian Sign Language*,\n
+	Eighth International Conference on South Asian Languages (*ICOSAL*), Aligarh Muslim University, January 6, 2008.\n
+	[slides/isl-icosal08.pdf \[pdf-slides\]]
+. *INGIT: Limited Domain Formulaic Translation from Hindi to Indian Sign Language*,\n
+	5th International Conference on Natural Language Processing (*ICON*), IIT Hyderabad, January 4-6, 2007.\n
+	[slides/ingit-icon07.pdf \[pdf-slides\]]
+. *Spoken and Sign Languages: A Cross-modal Study*,\n
+	Twenty Eighth All India Conference of Linguists (*AICL*), Banaras Hindu University, November 2-4, 2006.\n
+	[slides/isl-aicl06.pdf \[pdf-slides\]]

@@ -1,0 +1,80 @@
+#item: mld
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_mld" onmousedown="javascript:lockMouse(event,'mld')" onmouseup="javascript:unLockMouse(event,'mld')">
+<div class="cross"><a href="javascript:closeCite('mld')">X</a></div>
+<p>
+~~~
+
+/Control of systems integrating logic, dynamics, and constraints/\n
+Bemporad, A. and Morari, M.\n
+Automatica, 1999, Vol. 35, pp. 407-427\n
+[javascript:toggleBibtex('mld') \[BibTeX\]]
+~~~
+{}{raw}
+</p>
+<div id="bib_mld" class="bibtex noshow" onmousedown="event.stopPropagation()" onmouseup="event.stopPropagation()">
+<pre>
+@article{mld,
+  author = {Alberto Bemporad and Manfred Morari},
+  title = {Control of systems integrating logic, dynamics, and constraints},
+  journal = {Automatica},
+  year = {1999},
+  volume = {35},
+  pages = {407-427}
+}
+</pre></div>
+</div>
+~~~
+#item: grunnet:PhD
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_grunnet:PhD" onmousedown="javascript:lockMouse(event,'grunnet:PhD')" onmouseup="javascript:unLockMouse(event,'grunnet:PhD')">
+<div class="cross"><a href="javascript:closeCite('grunnet:PhD')">X</a></div>
+<p>
+~~~
+
+/Automated Controller Synthesis for non-Deterministic Piecewise-Affine Hybrid Systems/\n
+Grunnet, J.D.\n
+The Doctoral School of Engineering, Science and Medicine, Aalborg University, 2009\n
+[javascript:toggleBibtex('grunnet:PhD') \[BibTeX\]]
+~~~
+{}{raw}
+</p>
+<div id="bib_grunnet:PhD" class="bibtex noshow" onmousedown="event.stopPropagation()" onmouseup="event.stopPropagation()">
+<pre>
+@phdthesis{grunnet:PhD,
+  author = {Jacob Deleuran Grunnet},
+  title = {Automated Controller Synthesis for non-Deterministic Piecewise-Affine Hybrid Systems},
+  school = {The Doctoral School of Engineering, Science and Medicine, Aalborg University},
+  year = {2009}
+}
+</pre></div>
+</div>
+~~~
+#item: latexbook
+~~~
+{}{raw}
+<div class="bibover noshow" id="bibover_latexbook" onmousedown="javascript:lockMouse(event,'latexbook')" onmouseup="javascript:unLockMouse(event,'latexbook')">
+<div class="cross"><a href="javascript:closeCite('latexbook')">X</a></div>
+<p>
+~~~
+
+/LaTeX  A Document Preparation System/\n
+Lamport, L.\n
+Addison-Wesley, 1986\n
+[javascript:toggleBibtex('latexbook') \[BibTeX\]]
+~~~
+{}{raw}
+</p>
+<div id="bib_latexbook" class="bibtex noshow" onmousedown="event.stopPropagation()" onmouseup="event.stopPropagation()">
+<pre>
+@book{latexbook,
+  author = {Leslie Lamport},
+  title = {LaTeX  A Document Preparation System},
+  publisher = {Addison-Wesley},
+  year = {1986}
+}
+</pre></div>
+</div>
+~~~

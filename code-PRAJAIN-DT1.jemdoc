@@ -1,0 +1,24 @@
+# jemdoc: menu{menu}{code.html}, addcss{css/jemdoc.css}, notime
+= Code
+
+== Please read before downloading
+
+- The code given below is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
+- If you use this code in your research, please cite the relevant publications given along with the links.
+- I would be happy to receive comments, feedback on the code, as well as the underlying methods.
+
+== Research Code
+
+. *Large-scale Multi-label Learning with Missing Labels*\n
+	Large-scale Multi-label Learning with Missing Labels, ICML, 2014.\n
+	[http://www.cs.utexas.edu/~rofuyu/exp-codes/leml-icml14-exp.zip \[external-link\]]
+. *Online Learning with Pairwise Loss Functions*\n
+	On the Generalization Ability of Online Learning Algorithms for Pairwise Loss Functions, ICML, 2013.\n
+	[code/OLP-code.zip \[code\]]
+. *Random Feature Maps for Dot Product Kernels*\n
+	Random Feature Maps for Dot Product Kernels, AISTATS, 2012.\n
+	[code/dpfeat-code.zip \[code\]]
+
+== Miscellaneous
+
+Create a web page in 5 easy steps ! Click [template/ here] for details.

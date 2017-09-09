@@ -1,0 +1,10 @@
+jemdoc.py -c my.conf -o about.html about
+jemdoc.py -c jemdoc/bibtex.conf -o paper.html paper
+jemdoc.py -c my.conf -o awards.html awards
+jemdoc.py -c my.conf -o code.html code
+jemdoc.py -c my.conf -o students.html students
+jemdoc.py -c my.conf -o index.html index
+jemdoc.py -c my.conf -o posters.html posters
+jemdoc.py -c my.conf -o service.html service
+jemdoc.py -c my.conf -o talks.html talks
+jemdoc.py -c my.conf -o projects.html projects

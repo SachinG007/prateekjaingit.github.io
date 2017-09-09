@@ -1,0 +1,13 @@
+# jemdoc: menu{menu}{projects.html}, addcss{css/jemdoc.css}, notime
+= Projects
+
+#== Preprints/arXiv-ed articles
+
+== Provable Non-convex Optimization for Machine Learning
+. Low-rank Matrix Estimation
+. Compressive Sensing
+
+== eXtreme Multi-label Classification (XML)
+
+
+== Learning with Non-decomposable Loss Functions

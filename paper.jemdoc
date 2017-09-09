@@ -1,0 +1,13 @@
+# jemdoc: menu{menu}{articles.html}, addcss{css/jemdoc.css}, notime
+# jemdoc: addcss{bibtex.css}
+
+
+= Publications
+
+#== Preprints/arXiv-ed articles
+
+== Journal Publications
+
+== Refereed Conference Publications
+#includeraw{publist/mypubs.html}
+

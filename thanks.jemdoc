@@ -1,0 +1,6 @@
+# jemdoc: menu{menu}{thanks.html}, addcss{css/jemdoc.css}, notime
+= Acknowledgements
+
+- This website was generated using [http://jemdoc.jaboc.net/ jemdoc], a nice and light text-based mark-up language designed for creating websites
+- My gratitude to Jacob Ozolins for coming up with the footer message. Go [http://www.anybrowser.org/campaign/ here] to find out more.
+- In case you have visited my website before, the older version can be found [website_v1/ here].

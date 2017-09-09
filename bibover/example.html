@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="bibover.css" type="text/css" />
+<title>Bibover Example</title>
+<script type="text/javascript" src="bibover.js">
+</script>
+</head>
+<body>
+<div id="layout-content">
+<div id="toptitle">
+<h1>Bibover Example</h1>
+</div>
+<p><a href="http://bibover.polytekniker.dk">Bibover</a> is a bibtex extension for
+<a href="http://jemdoc.jaboc.net">Jemdoc</a>, which provides &ldquo;floating&rdquo;
+references. Bibover is heavily inspired by and borrows from Truong
+X. Nghiem&rsquo;s <a href="http://www.seas.upenn.edu/~nghiem/software.html">Jemdoc
+export filter for JabRef</a>.</p>
+<h2>Examples </h2>
+<p>A few example references, e.g. my PhD
+thesis<a href="javascript:cite('grunnet:PhD')">[Grunnet 2009]</a> or an article
+about control theory <a href="javascript:cite('mld')">[Bemporad and Morari
+1999]</a> and maybe even the trusty old dog book
+<a href="javascript:cite('latexbook')"><img class="eq" src="eqs/7880597598774150127-130.png" alt="textrm{LaTeX}" style="vertical-align: -4px" /></a>.</p>
+<h2>Usage</h2>
+<p>In order to use Bibover you need <a href="http://jabref.sourceforge.net/">Jabref</a>, which is a BibTex reference database, and of course the
+Bibover package.</p>
+<ol>
+<li><p>Before you get started you need to add the JabRef export filter named
+<tt>bibover.layout</tt> to JabRef. Please refer to the JabRef manual for help
+on this step, but I recommend that you chose <tt>.jeminc</tt> as the file
+extension.</p>
+</li>
+<li><p>Export the references you want available in your Jemdoc document.</p>
+</li>
+<li><p>Copy <tt>bibover.css</tt> to your html folder.</p>
+</li>
+<li><p>Make sure <tt>bibover.conf</tt> is somwhere in Jemdoc&rsquo;s search path e.g. in the same directory as your source files.</p>
+</li>
+<li><p>Add <tt>#jemdoc: addcss{bibover.css}</tt> to your document.</p>
+</li>
+<li><p>Add <tt>#include{exbib.jeminc}</tt> to your document, where <tt>exbib.jeminc</tt> is the filename of your exportet BibTex entries.</p>
+</li>
+<li><p>Add any citations you want as <tt>[javascript:cite(&rsquo;bibkey&rsquo;) mark]</tt> where <tt>bibkey</tt> is the BibTex key of the entry you want to refer to and <tt>mark</tt> is what you want the reference to appear as in your document.</p>
+</li>
+<li><p>Compile your jemdoc file with <tt>jemdoc -c bibover.conf file.jemdoc</tt>.</p>
+</li>
+</ol>
+<p>For an example, see the source of this page.</p>
+<div class="bibover noshow" id="bibover_mld" onmousedown="javascript:lockMouse(event,'mld')" onmouseup="javascript:unLockMouse(event,'mld')">
+<div class="cross"><a href="javascript:closeCite('mld')">X</a></div>
+<p>
+<p><i>Control of systems integrating logic, dynamics, and constraints</i><br />
+Bemporad, A. and Morari, M.<br />
+Automatica, 1999, Vol. 35, pp. 407-427<br />
+<a href="javascript:toggleBibtex('mld')">[BibTeX]</a></p>
+</p>
+<div id="bib_mld" class="bibtex noshow" onmousedown="event.stopPropagation()" onmouseup="event.stopPropagation()">
+<pre>
+@article{mld,
+  author = {Alberto Bemporad and Manfred Morari},
+  title = {Control of systems integrating logic, dynamics, and constraints},
+  journal = {Automatica},
+  year = {1999},
+  volume = {35},
+  pages = {407-427}
+}
+</pre></div>
+</div>
+<div class="bibover noshow" id="bibover_grunnet:PhD" onmousedown="javascript:lockMouse(event,'grunnet:PhD')" onmouseup="javascript:unLockMouse(event,'grunnet:PhD')">
+<div class="cross"><a href="javascript:closeCite('grunnet:PhD')">X</a></div>
+<p>
+<p><i>Automated Controller Synthesis for non-Deterministic Piecewise-Affine Hybrid Systems</i><br />
+Grunnet, J.D.<br />
+The Doctoral School of Engineering, Science and Medicine, Aalborg University, 2009<br />
+<a href="javascript:toggleBibtex('grunnet:PhD')">[BibTeX]</a></p>
+</p>
+<div id="bib_grunnet:PhD" class="bibtex noshow" onmousedown="event.stopPropagation()" onmouseup="event.stopPropagation()">
+<pre>
+@phdthesis{grunnet:PhD,
+  author = {Jacob Deleuran Grunnet},
+  title = {Automated Controller Synthesis for non-Deterministic Piecewise-Affine Hybrid Systems},
+  school = {The Doctoral School of Engineering, Science and Medicine, Aalborg University},
+  year = {2009}
+}
+</pre></div>
+</div>
+<div class="bibover noshow" id="bibover_latexbook" onmousedown="javascript:lockMouse(event,'latexbook')" onmouseup="javascript:unLockMouse(event,'latexbook')">
+<div class="cross"><a href="javascript:closeCite('latexbook')">X</a></div>
+<p>
+<p><i>LaTeX  A Document Preparation System</i><br />
+Lamport, L.<br />
+Addison-Wesley, 1986<br />
+<a href="javascript:toggleBibtex('latexbook')">[BibTeX]</a></p>
+</p>
+<div id="bib_latexbook" class="bibtex noshow" onmousedown="event.stopPropagation()" onmouseup="event.stopPropagation()">
+<pre>
+@book{latexbook,
+  author = {Leslie Lamport},
+  title = {LaTeX  A Document Preparation System},
+  publisher = {Addison-Wesley},
+  year = {1986}
+}
+</pre></div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2010-04-17 15:57:25 CEST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+(<a href="example.jemdoc">source</a>)
+</div>
+</div>
+</div>
+<script type="text/javascript">
+<!--
+//Get array of all anchors in the layout-content table cell
+var td=document.getElementById('layout-content');
+var anchs=td.getElementsByTagName('a');
+//Setup the regex pattern for finding cites
+var patt1 = /javascript:cite\(\'.*\'\)/;
+//Loop through all anchors
+for(var	i=0;i<anchs.length;i++) {
+    a=anchs[i];
+    //If the anchor contains a cite add event listeners
+    if(a.href.search(patt1)!=-1) {
+       a.addEventListener('mouseover',bibshow,false);
+       a.addEventListener('mouseout',bibhide,false);
+    }
+}
+-->
+</script>
+</body>
+</html>

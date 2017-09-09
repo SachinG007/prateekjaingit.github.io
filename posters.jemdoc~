@@ -1,0 +1,38 @@
+# jemdoc: menu{menu}{posters.html}, addcss{css/jemdoc.css}, notime
+= Posters
+
+Given below are PDF files for posters that I have presented at various conferences.
+
+\n
+. *Surrogate Functions for Maximizing Precision at the Top*,\n
+	32nd International Conference on Machine Learning (*ICML*), 2015.\n
+	[posters/preck-surrogate-icml15.pdf \[poster\]]
+. *Optimizing Non-decomposable Performance Measures: A Tale of Two Classes*,\n
+	32nd International Conference on Machine Learning (*ICML*), 2015.\n
+	(prepared and co-presented by [http://clweb.csa.iisc.ernet.in/harikrishna/ Harikrishna Narasimhan])\n
+	[posters/sgd-tpr-tnr-icml15.pdf \[poster\]]
+. *Online and Stochastic Gradient Methods for Non-decomposable Loss Functions*,\n
+	28th Annual Conference on Neural Information Processing Systems (*NIPS*), 2014.\n
+	[posters/nondecomp-nips14.pdf \[poster\]]
+. *On Iterative Hard Thresholding Methods for High-dimensional M-Estimation*,\n
+	28th Annual Conference on Neural Information Processing Systems (*NIPS*), 2014.\n
+	[posters/rsc-iht-nips14.pdf \[poster\]]
+. *Large-scale Multi-label Learning with Missing Labels*,\n
+	31st International Conference on Machine Learning (*ICML*), 2014.\n
+	(prepared and presented by [http://www.cs.utexas.edu/~rofuyu/ Hsiang-Fu Yu])\n
+	[posters/leml-icml14.pdf \[poster\]]
+. *On the Generalization Ability of Online Learning Algorithms for Pairwise Loss Functions*,\n
+	30th International Conference on Machine Learning (*ICML*), 2013.\n
+    [posters/onlinepairwise-icml13.pdf \[poster\]]
+. *Supervised Learning with Similarity Functions*,\n
+	26th Annual Conference on Neural Information Processing Systems (*NIPS*), 2012.\n
+    [posters/dissim-nips12.pdf \[poster\]]
+. *Random Feature Maps for Dot Product Kernels*,\n
+	15th International Conference on Artificial Intelligence and Statistics (*AISTATS*), 2012.\n
+    [posters/dpfeat-aistats12.pdf \[poster\]]
+. *Similarity-based Learning via Data driven Embeddings*,\n
+	25th Annual Conference on Neural Information Processing Systems (*NIPS*), 2011.\n
+    [posters/dissim-nips11.pdf \[poster\]]
+. *Random Projection Trees Revisited*,\n
+	24th Annual Conference on Neural Information Processing Systems (*NIPS*), 2010.\n
+    [posters/rptree-nips10.pdf \[poster\]]

@@ -1,0 +1,41 @@
+# jemdoc: addcss{jemdoc.css}, showsource
+# jemdoc: addcss{bibover.css}
+= Bibover Example
+
+[http://bibover.polytekniker.dk Bibover] is a bibtex extension for
+[http://jemdoc.jaboc.net Jemdoc], which provides "floating"
+references. Bibover is heavily inspired by and borrows from Truong
+X. Nghiem's [http://www.seas.upenn.edu/~nghiem/software.html Jemdoc
+export filter for JabRef].
+
+
+== Examples 
+
+A few example references, e.g. my PhD
+thesis[javascript:cite('grunnet:PhD') \[Grunnet 2009\]] or an article
+about control theory [javascript:cite('mld') \[Bemporad and Morari
+1999\]] and maybe even the trusty old dog book
+[javascript:cite('latexbook') $\textrm{\LaTeX}$].
+
+== Usage
+
+In order to use Bibover you need [http://jabref.sourceforge.net/
+Jabref], which is a BibTex reference database, and of course the
+Bibover package.
+
+. Before you get started you need to add the JabRef export filter named
++bibover.layout+ to JabRef. Please refer to the JabRef manual for help
+on this step, but I recommend that you chose +.jeminc+ as the file
+extension.
+. Export the references you want available in your Jemdoc document.
+. Copy +bibover.css+ to your html folder.
+. Make sure +bibover.conf+ is somwhere in Jemdoc's search path e.g. in the same directory as your source files.
+. Add +\#jemdoc: addcss\{bibover.css\}+ to your document.
+. Add +\#include\{exbib.jeminc\}+ to your document, where +exbib.jeminc+ is the filename of your exportet BibTex entries.
+. Add any citations you want as +\[javascript:cite('bibkey') mark\]+ where +bibkey+ is the BibTex key of the entry you want to refer to and +mark+ is what you want the reference to appear as in your document.
+. Compile your jemdoc file with +jemdoc -c bibover.conf file.jemdoc+.
+
+For an example, see the source of this page.
+
+
+#include{exbib.jeminc}
