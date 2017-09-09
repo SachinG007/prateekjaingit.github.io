@@ -2,7 +2,7 @@
 = Prateek Jain
 
 ~~~
-{}{img_left}{images/prateekjain.jpg}{Prateek Jain}{90}{120}
+{}{img_left}{images/newpic.jpg}{Prateek Jain}{90}{120}
 Researcher, Microsoft Research\n
 Adjunct Faculty, IIT Kanpur\n\n
 Contact:
@@ -18,18 +18,26 @@ I am a member of the Machine Learning and Optimization and the Algorithms and Da
 Earlier, I completed my PhD at the University of Texas at Austin under Prof. Inderjit S. Dhillon. 
 
 == News
-- \[/9th Sept 2017/\] {{<font color="red">[New]</font>}} Finally uploaded the new version of the website. Thanks to Purushottam Kar for allowing me to shamelessly copy his site. 
 
-#- \[/24 May 2016/\] {{<font color="red">[New]</font>}} Our paper on streaming PCA will appear at COLT 2016. Paper available [paper.html here].
+- \[/9 Sept 2017/\] {{<font color="red">[New]</font>}} Two papers will appear at NIPS 2017. Papers available [paper.html here].
 
-#- \[/10 May 2016/\] {{<font color="red">[New]</font>}} Our paper on robust tensor  PCA was presented at AISTATS 2016. Paper available [paper.html here].
+- \[/25 May 2017/\] {{<font color="red">[New]</font>}} Four papers will appear at ICML 2017. Papers available [paper.html here].
+
+- \[/1 Dec 2016/\] {{<font color="red">[New]</font>}} Four papers will appear at NIPS 2016. Papers available [paper.html here].
+
+- \[/24 May 2016/\] {{<font color="red">[New]</font>}} Our paper on streaming PCA will appear at COLT 2016. Paper available [paper.html here].
+
+- \[/10 May 2016/\] {{<font color="red">[New]</font>}} Our paper on robust tensor  PCA was presented at AISTATS 2016. Paper available [paper.html here].
 
 
 #- \[/19 October 2015/\]  Our paper on matrix sensing appeared at ALT 2015. Paper available [paper.html here].
 
-#- \[/19 October 2015/\]  Four papers will appear at NIPS 2015. Preprints available [paper.html here].
+- \[/19 October 2015/\]  Four papers will appear at NIPS 2015. Preprints available [paper.html here].
 
 #- \[/15 July 2015/\] Our work on scalable iterative *hard thresholding methods* for M-estimation problems (NIPS 2014) will be presented at the International Symposium on Mathematical Programming (ISMP 2015), July 12-17, 2015.
 
 #- \[/25 Apr 2015/\] Two papers to appear at ICML 2015. One paper deals with improved stochastic optimization techniques for two specific classes of *structured loss* functions. This supersedes our earlier NIPS 2014 paper for these classes of loss functions. The second paper deals with maximizing precision at the top for *bipartite ranking* problems.
+
+- \[/24 Apr 2015/\] {{<font color="red">[New]</font>}} Finally uploaded the new version of the website. Thanks to Purushottam Kar for allowing me to shamelessly copy his site. 
+
 ### OLD COMMENTS ###

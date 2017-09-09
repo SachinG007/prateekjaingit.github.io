@@ -1,5 +1,5 @@
 <!-- Item: \format{\bibtexkey} -->
-<li \begin{plstyle}\plstyle\end{plstyle}><p>
+<li \begin{plstyle}\plstyle\end{plstyle}>
 \begin{author}\format[AuthorFirstFirstCommas,HTMLChars,RemoveTilde,RemoveBrackets,RemoveLatexCommands]{\author},\end{author}
 &ldquo;\format[HTMLChars,RemoveTilde,RemoveBrackets,RemoveLatexCommands]{\title},&rdquo;
 \begin{booktitle}in <i>\format[HTMLChars,RemoveTilde,RemoveBrackets,RemoveLatexCommands]{\booktitle}</i>,\end{booktitle}

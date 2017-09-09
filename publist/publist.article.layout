@@ -1,5 +1,5 @@
 <!-- Item: \format{\bibtexkey} -->
-<li \begin{plstyle}\plstyle\end{plstyle}><p>
+<li \begin{plstyle}\plstyle\end{plstyle}>
 \begin{author}\format[AuthorFirstFirstCommas,HTMLChars,RemoveTilde,RemoveBrackets,RemoveLatexCommands]{\author},\end{author}
 &ldquo;\format[HTMLChars,RemoveTilde,RemoveBrackets,RemoveLatexCommands]{\title},&rdquo;
 \begin{journal}<i>\format[HTMLChars,RemoveTilde,RemoveBrackets,RemoveLatexCommands]{\journal}</i>,\end{journal}
@@ -13,7 +13,7 @@
 <a href="javascript:toggleBibtex('\format{\bibtexkey}')">[BibTeX]</a>
 \begin{url}<a href="\format{\url}">[URL]</a>\end{url}
 \begin{pllinks}\format[Replace("([a-zA-Z]+)://,$1//////"),WrapFileLinks(<a href="\p">\d</a> ),Replace("//////,://")]{\pllinks}\end{pllinks}
-</p>
+
 <div id="bib_\format{\bibtexkey}" class="bibtex noshow">
 <pre>
 @\format[ToLowerCase]{\bibtextype}{\bibtexkey,\begin{author}
