@@ -7,8 +7,29 @@
 <br />
 <a href="javascript:toggleBibtex('\format{\bibtexkey}')">[BibTeX]</a>
 <a id="displayText\format{\bibtexkey}" href="javascript:toggle('\format{\bibtexkey}');">[Abstract]</a>
-\begin{url}<a href="\format{\url}">[URL]</a>\end{url}<br>
-\begin{note}\format[HTMLChars,RemoveLatexCommands]{\note}\end{note}
+\begin{url}<a href="\format{\url}">[URL]</a>\end{url}
+
+<script type="text/javascript">
+var slide="\note";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=\note>[Slides]</a>");
+}
+var poster="\owner";
+var code="\comment";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=\owner>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=\comment>[Code]</a>");
+}
+</script>
+
 \begin{pllinks}\format[Replace("([a-zA-Z]+)://,$1//////"),WrapFileLinks(<a href="\p">\d</a> ),Replace("//////,://")]{\pllinks}\end{pllinks}
 
 <div id="toggleText\format{\bibtexkey}" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">\format{\abstract}</div>
