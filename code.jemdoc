@@ -5,7 +5,11 @@
 [https://github.com/Microsoft/EdgeML \[url\]] 
 [http://prateekjain.org/all_papers/GuptaSGSPKGUVJ17_ICML.pdf \[Paper\]] 
 
-== Singular Value Projection: Fast, provable method for matrix completion and matrix sensing
+== PG-RMC: Robust Matrix Completion, Robust PCA
+[https://github.com/andrewssobral/lrslibrary/tree/master/algorithms/mc/PG-RMC \[url\]]
+[http://prateekjain.org/all_papers/CherapanamjeriGJ17_ICML.pdf \[Paper\]]
+
+== Singular Value Projection: Fast, provable method for matrix completion, sensing
 [https://www.cs.utexas.edu/~pjain/svp/ \[url\]]
 [http://prateekjain.org/all_papers/JainMD10_NIPS.pdf \[Paper\]] 
 
