@@ -1,3 +1,18 @@
 # jemdoc: menu{menu}{code.html}, addcss{css/jemdoc.css}, notime
 = Code
-Coming soon...
+
+== ProtoNN: Prototype based Nearest Neighbor Search in 2KB of RAM
+[https://github.com/Microsoft/EdgeML \[url\]] 
+[http://prateekjain.org/all_papers/GuptaSGSPKGUVJ17_ICML.pdf \[Paper\]] 
+
+== Singular Value Projection: Fast, provable method for matrix completion and matrix sensing
+[https://www.cs.utexas.edu/~pjain/svp/ \[url\]]
+[http://prateekjain.org/all_papers/JainMD10_NIPS.pdf \[Paper\]] 
+
+== Information Theoretic Metric Learning
+[https://www.cs.utexas.edu/~pjain/itml/ \[url\]]
+[http://prateekjain.org/all_papers/DavisKJSD07_ICML.pdf \[Paper\]] 
+
+== pKNN+AL: Probabilistic Nearest Neighbor Classifier with Active Learning 
+[https://www.cs.utexas.edu/users/pjain/pknn/ \[url\]]
+[http://prateekjain.org/all_papers/JainK09_CVPR.pdf \[Paper\]] 
