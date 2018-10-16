@@ -8,40 +8,51 @@ permalink: /students/
 I have been extremely lucky to have worked with some amazing postdocs/interns/research fellows. 
 
 ## Postdocs
+* Nagarajan Natarajan, 2015-2017
+  (Applied Scientist, MSR India)
 * Purushottam Kar, 2013-2015
   (Assistant Professor, IIT Kanpur)
-* Nagarajan Natarajan, 2015-
-  (Postdoc, MSR India)
   
 
 ## Research Fellows (RF)
+* Sahil Bhatia, 2018-
+  (RF, MSR India)
+* <a href="https://dkdennis.xyz">Don Dennis</a>, 2017-
+  (RF, MSR India)
+* Shishir Patil, 2017-
+  (RF, MSR India)
+* Aditya Kusupati, 2017-
+  (RF, MSR India)
+* Raghav Somani, 2017-
+  (RF, MSR India)
 * Kush Bhatia, 2014-2016.
   (PhD Student, UC Berkeley)
 * Yeshwanth Cherapanamjeri, 2015-2017.
   (PhD Student, UC Berkeley)
 * Kartik Gupta, 2015-2017. 
   (PhD Student, CMU)
-* Chirag Gupta, 2016-
+* Chirag Gupta, 2016-2018
   (RF, MSR India)
 * Sai Srivatsa, 2016-2017
 
 
 ## Interns
+* Dheeraj Nagaraj, Summer'2018. (PhD Student, MIT)
 * Chi Jin, Summer'2017. (PhD Student, UC Berkeley)
 * Ashwin Kalyan, Summer'2017. (PhD Student, GeorgiaTech)
 * Rahul Kidambi, Summer'2017. (PhD Student, Univ of Washington)
 * Ankit Goyal, Summer'2016. (PhD Student, UMichigan)
-* Arun Sai Suggla, Summer'2016. (PhD Student, CMU)
+* Arun Sai Suggla, Summer'2016, 2018. (PhD Student, CMU)
 * Elena-Madalina Persu, Summer'2015. (PhD Student, MIT)
 * Gautam Kamath, Summer'2015. (PhD Student, MIT)
 * Harikrishna Narasimhan, Summer'2014.
-  (Postdoc, Harvard University)
+  (Research Scientist, Google)
 * Praneeth Netrapalli, Summer'2012, 2014.
   (Researcher, Microsoft Research India)
 * Srinadh Bhojanapalli, Summer'2013, 2014.
-  (Assistant Professor, TTI Chicago)
+  (Research Scientist, Google)
 * Pravesh Kothari, Summer'2014.
-  (Phd Student, UT Austin)
+  (Assistant Professor, CMU)
 * Purushottam Kar, Summer'2012.
   (Assistant Professor, IIT Kanpur)
 * Sivakanth Gopi, Summer'2012.
