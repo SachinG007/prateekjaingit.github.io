@@ -6,6 +6,8 @@ sitemap: false
 permalink: /talks/
 ---
 
+* Tutorial on Provable Non-convex Methods for Machine Learning (CODS-COMAD-2018)- Slides [ppt](/publications/slides/noncvx_tut_cods.pptx) [pdf](/publications/slides/noncvx_tut_cods.pdf)
+
 * Tutorial on Provable Non-convex Methods for Machine Learning - [Part 1](https://www.microsoft.com/en-us/research/video/provable-non-convex-projections-for-high-dimensional-learning-problems-part1/){:target="_blank"}
 [Part 2](https://www.microsoft.com/en-us/research/video/provable-non-convex-projections-for-high-dimensional-learning-problems-part2/){:target="_blank"}
 
