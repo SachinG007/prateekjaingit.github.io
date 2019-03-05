@@ -1,4 +1,619 @@
-<!-- Item: GulwaniJ17 -->
+<!-- Item: SomaniGJN18 -->
+<li >
+<b>Support Recovery for Orthogonal Matching Pursuit: Upper and Lower bounds</b><br>
+Raghav Somani, Chirag Gupta, Prateek Jain and Praneeth Netrapalli,<br>
+in <i>Proceedings of the Thirty-first Annual Conference on Neural Information Processing Systems (NeurIPS)</i>,
+2018.
+<br />
+<a href="javascript:toggleBibtex('SomaniGJN18')">[BibTeX]</a>
+<a id="displayTextSomaniGJN18" href="javascript:toggle('SomaniGJN18');">[Abstract]</a>
+<a href="all_papers/SomaniGJN18.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="slides/SomaniGJN18.pdf";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=slides/SomaniGJN18.pdf>[Slides]</a>");
+}
+var poster="posters/SomaniGJN18.pdf";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=posters/SomaniGJN18.pdf>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextSomaniGJN18" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">This paper studies the problem of sparse regression where the goal is to learn a sparse vector that best optimizes a given objective function. Under the assumption that the objective function satisfies restricted strong convexity (RSC), we analyze orthogonal matching pursuit (OMP), a greedy algorithm that is used heavily in applications, and obtain support recovery result as well as a tight generalization error bound for OMP. Furthermore, we obtain lower bounds for OMP, showing that both our results on support recovery and generalization error are tight up to logarithmic factors. To the best of our knowledge, these support recovery and generalization bounds are the first such matching upper and lower bounds (up to logarithmic factors) for {\em any} sparse regression algorithm under the RSC assumption.</div>
+<div id="bib_SomaniGJN18" class="bibtex noshow">
+<pre>
+@inproceedings{SomaniGJN18,
+  author = {Raghav Somani and Chirag Gupta and Prateek Jain and Praneeth Netrapalli},
+  title = {Support Recovery for Orthogonal Matching Pursuit: Upper and Lower bounds},
+  booktitle = {Proceedings of the Thirty-first Annual Conference on Neural Information Processing Systems (NeurIPS)},
+  year = {2018},
+  pages = {10837--10847},
+  note = {slides/SomaniGJN18.pdf},
+  url = {all_papers/SomaniGJN18.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: DennisPSJ18 -->
+<li >
+<b>Multiple Instance Learning for Efficient Sequential Data Classification on Resource-constrained Devices</b><br>
+Don Dennis, Chirag Pabbaraju, Harsha Vardhan Simhadri and Prateek Jain,<br>
+in <i>Proceedings of the Thirty-first Annual Conference on Neural Information Processing Systems (NeurIPS)</i>,
+2018.
+<br />
+<a href="javascript:toggleBibtex('DennisPSJ18')">[BibTeX]</a>
+<a id="displayTextDennisPSJ18" href="javascript:toggle('DennisPSJ18');">[Abstract]</a>
+<a href="all_papers/DennisPSJ18.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="slides/DennisPSJ18.pdf";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=slides/DennisPSJ18.pdf>[Slides]</a>");
+}
+var poster="posters/DennisPSJ18.pdf";
+var code="code/emirnn.html";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=posters/DennisPSJ18.pdf>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=code/emirnn.html>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextDennisPSJ18" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">We study the problem of fast and efficient classification of sequential data (such as time-series) on tiny devices, which is critical for various IoT related applications like audio keyword detection or gesture detection. Such tasks are cast as a standard classification task by sliding windows over the data stream to construct data points. Deploying such classification modules on tiny devices is challenging as predictions over sliding windows of data need to be invoked continuously at a high frequency. Each such predictor instance in itself is expensive as it evaluates large models over long windows of data. In this paper, we address this challenge by exploiting the following two observations about classification tasks arising in typical IoT related applications: (a) the "signature" of a particular class (e.g. an audio keyword) typically occupies a small fraction of the overall data, and (b) class signatures tend to be discernible early on in the data. We propose a method, EMI-RNN, that exploits these observations by using a multiple instance learning formulation along with an early prediction technique to learn a model that achieves better accuracy compared to baseline models, while simultaneously reducing computation by a large fraction. For instance, on a gesture detection benchmark, EMI-RNN improves standard LSTM model’s accuracy by up to 1 percent while requiring 72x less computation. This enables us to deploy such models for continuous real-time prediction on a small device such as Raspberry Pi0 and Arduino variants, a task that the baseline LSTM could not achieve. Finally, we also provide an analysis of our multiple instance learning algorithm in a simple setting and show that the proposed algorithm converges to the global optima at a linear rate, one of the first such result in this domain. The code for EMI-RNN is available at: https://github.com/Microsoft/EdgeML/tree/master/tf/examples/EMI-RNN</div>
+<div id="bib_DennisPSJ18" class="bibtex noshow">
+<pre>
+@inproceedings{DennisPSJ18,
+  author = {Don Dennis and Chirag Pabbaraju and Harsha Vardhan Simhadri and Prateek Jain},
+  title = {Multiple Instance Learning for Efficient Sequential Data Classification on Resource-constrained Devices},
+  booktitle = {Proceedings of the Thirty-first Annual Conference on Neural Information Processing Systems (NeurIPS)},
+  year = {2018},
+  pages = {10976--10987},
+  note = {slides/DennisPSJ18.pdf},
+  url = {all_papers/DennisPSJ18.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: KusupatiSBKJV18 -->
+<li >
+<b>FastGRNN: A Fast, Accurate, Stable and Tiny Kilobyte Sized Gated Recurrent Neural Network</b><br>
+Aditya Kusupati, Manish Singh, Kush Bhatia, Ashish Kumar, Prateek Jain and Manik Varma,<br>
+in <i>Proceedings of the Thirty-first Annual Conference on Neural Information Processing Systems (NeurIPS)</i>,
+2018.
+<br />
+<a href="javascript:toggleBibtex('KusupatiSBKJV18')">[BibTeX]</a>
+<a id="displayTextKusupatiSBKJV18" href="javascript:toggle('KusupatiSBKJV18');">[Abstract]</a>
+<a href="all_papers/KusupatiSBKJV18.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="slides/fastgrnn.pdf";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=slides/fastgrnn.pdf>[Slides]</a>");
+}
+var poster="posters/KusupatiSBKJV18.pdf";
+var code="code/fastgrnn.html";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=posters/KusupatiSBKJV18.pdf>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=code/fastgrnn.html>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextKusupatiSBKJV18" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">This paper develops the FastRNN and FastGRNN algorithms to address the twin RNN limitations of inaccurate training and inefficient prediction. Previous approaches have improved accuracy at the expense of prediction costs making them infeasible for resource-constrained and real-time applications. Unitary RNNs have increased accuracy somewhat by restricting the range of the state transition matrix's singular values but have also increased the model size as they require a larger number of hidden units to make up for the loss in expressive power. Gated RNNs have obtained state-of-the-art accuracies by adding extra parameters thereby resulting in even larger models. FastRNN addresses these limitations by adding a residual connection that does not constrain the range of the singular values explicitly and has only two extra scalar parameters. FastGRNN then extends the residual connection to a gate by reusing the RNN matrices to match state-of-the-art gated RNN accuracies but with a 2-4x smaller model. Enforcing FastGRNN's matrices to be low-rank, sparse and quantized resulted in accurate models that could be up to 35x smaller than leading gated and unitary RNNs. This allowed FastGRNN to accurately recognize the "Hey Cortana" wakeword with a 1 KB model and to be deployed on severely resource-constrained IoT microcontrollers too tiny to store other RNN models. FastGRNN's code is available online.</div>
+<div id="bib_KusupatiSBKJV18" class="bibtex noshow">
+<pre>
+@inproceedings{KusupatiSBKJV18,
+  author = {Aditya Kusupati and Manish Singh and Kush Bhatia and Ashish Kumar and Prateek Jain and Manik Varma},
+  title = {FastGRNN: A Fast, Accurate, Stable and Tiny Kilobyte Sized Gated Recurrent Neural Network},
+  booktitle = {Proceedings of the Thirty-first Annual Conference on Neural Information Processing Systems (NeurIPS)},
+  year = {2018},
+  pages = {9031--9042},
+  note = {slides/fastgrnn.pdf},
+  url = {all_papers/KusupatiSBKJV18.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: BhojanapalliBJN18 -->
+<li >
+<b>Smoothed analysis for low-rank solutions to semidefinite programs in quadratic penalty form</b><br>
+Srinadh Bhojanapalli, Nicolas Boumal, Prateek Jain and Praneeth Netrapalli,<br>
+in <i>Proceedings of the Annual Conference On Learning Theory (COLT)</i>,
+2018.
+<br />
+<a href="javascript:toggleBibtex('BhojanapalliBJN18')">[BibTeX]</a>
+<a id="displayTextBhojanapalliBJN18" href="javascript:toggle('BhojanapalliBJN18');">[Abstract]</a>
+<a href="all_papers/BhojanapalliBJN18.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="slides/BhojanapalliBJN18.pdf";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=slides/BhojanapalliBJN18.pdf>[Slides]</a>");
+}
+var poster="";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextBhojanapalliBJN18" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">Semidefinite programs (SDP) are important in learning and combinatorial optimization with numerous applications. In pursuit of low-rank solutions and low complexity algorithms, we consider the Burer--Monteiro factorization approach for solving SDPs. We show that all approximate local optima are global optima for the penalty formulation of appropriately rank-constrained SDPs as long as the number of constraints scales sub-quadratically with the desired rank of the optimal solution. Our result is based on a simple penalty function formulation of the rank-constrained SDP along with a smoothed analysis to avoid worst-case cost matrices. We particularize our results to two applications, namely, Max-Cut and matrix completion.</div>
+<div id="bib_BhojanapalliBJN18" class="bibtex noshow">
+<pre>
+@inproceedings{BhojanapalliBJN18,
+  author = {Srinadh Bhojanapalli and Nicolas Boumal and Prateek Jain and Praneeth Netrapalli},
+  title = {Smoothed analysis for low-rank solutions to semidefinite programs in quadratic penalty form},
+  booktitle = {Proceedings of the Annual Conference On Learning Theory (COLT)},
+  year = {2018},
+  pages = {3243--3270},
+  note = {slides/BhojanapalliBJN18.pdf},
+  url = {all_papers/BhojanapalliBJN18.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: JTT18 -->
+<li >
+<b>Differentially Private Matrix Completion Revisited</b><br>
+Prateek Jain, Om Dipakbhai Thakkar and Abhradeep Thakurta,<br>
+in <i>Proceedings of the 35th International Conference on Machine Learning (ICML)</i>,
+2018.
+<br />
+<a href="javascript:toggleBibtex('JTT18')">[BibTeX]</a>
+<a id="displayTextJTT18" href="javascript:toggle('JTT18');">[Abstract]</a>
+<a href="all_papers/JTT18.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="slides/JTT18.pdf";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=slides/JTT18.pdf>[Slides]</a>");
+}
+var poster="posters/JTT18.pdf";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=posters/JTT18.pdf>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextJTT18" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">We study the problem of privacy-preserving collaborative filtering where the objective is to reconstruct the entire users-items preference matrix using a few observed preferences of users for some of the items. Furthermore, the collaborative filtering algorithm should reconstruct the preference matrix while preserving the privacy of each user. We study this problem in the setting of joint differential privacy where each user computes her own preferences for all the items, without violating privacy of other users' preferences. We provide the first provably differentially private algorithm with formal utility guarantees for this problem. Our algorithm is based on the Frank-Wolfe (FW) method, and consistently estimates the underlying preference matrix as long as the number of users $m$ is $\omega(n^{5/4})$, where $n$ is the number of items, and each user provides her preference for at least $\sqrt{n}$ randomly selected items. We also empirically evaluate our FW-based algorithm on a suite of datasets, and show that our method provides nearly same accuracy as the state-of-the-art non-private algorithm, and outperforms the state-of-the-art private algorithm by as much as 30 percent.</div>
+<div id="bib_JTT18" class="bibtex noshow">
+<pre>
+@inproceedings{JTT18,
+  author = {Prateek Jain and Om Dipakbhai Thakkar and Abhradeep Thakurta},
+  title = {Differentially Private Matrix Completion Revisited},
+  booktitle = {Proceedings of the 35th International Conference on Machine Learning (ICML)},
+  year = {2018},
+  pages = {2220--2229},
+  note = {slides/JTT18.pdf},
+  url = {all_papers/JTT18.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: JKKNS18 -->
+<li >
+<b>Accelerating Stochastic Gradient Descent for Least Squares Regression</b><br>
+Prateek Jain, Sham M. Kakade, Rahul Kidambi, Praneeth Netrapalli and Aaron Sidford,<br>
+in <i>Proceedings of the Annual Conference On Learning Theory (COLT)</i>,
+2018.
+<br />
+<a href="javascript:toggleBibtex('JKKNS18')">[BibTeX]</a>
+<a id="displayTextJKKNS18" href="javascript:toggle('JKKNS18');">[Abstract]</a>
+<a href="all_papers/JKKNS18">[URL]</a>
+
+<script type="text/javascript">
+var slide="slides/JKNNS.pdf";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=slides/JKNNS.pdf>[Slides]</a>");
+}
+var poster="";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextJKKNS18" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">There is widespread sentiment that it is not possible to effectively utilize fast gradient methods (e.g. Nesterov's acceleration, conjugate gradient, heavy ball) for the purposes of stochastic optimization due to their instability and error accumulation, a notion made precise in d'Aspremont 2008 and Devolder, Glineur, and Nesterov 2014. This work considers these issues for the special case of stochastic approximation for the least squares regression problem, and our main result refutes the conventional wisdom by showing that acceleration can be made robust to statistical errors. In particular, this work introduces an accelerated stochastic gradient method that provably achieves the minimax optimal statistical risk faster than stochastic gradient descent. Critical to the analysis is a sharp characterization of accelerated stochastic gradient descent as a stochastic process. We hope this characterization gives insights towards the broader question of designing simple and effective accelerated stochastic methods for more general convex and non-convex optimization problems.</div>
+<div id="bib_JKKNS18" class="bibtex noshow">
+<pre>
+@inproceedings{JKKNS18,
+  author = {Prateek Jain and Sham M. Kakade and Rahul Kidambi and Praneeth Netrapalli and Aaron Sidford},
+  title = {Accelerating Stochastic Gradient Descent for Least Squares Regression},
+  booktitle = {Proceedings of the Annual Conference On Learning Theory (COLT)},
+  year = {2018},
+  pages = {545--604},
+  note = {slides/JKNNS.pdf},
+  url = {all_papers/JKKNS18}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: KidambiNJK18 -->
+<li >
+<b>On the insufficiency of existing momentum schemes for Stochastic Optimization</b><br>
+Rahul Kidambi, Praneeth Netrapalli, Prateek Jain and Sham M. Kakade,<br>
+in <i>Proceedings of the International Conference on Learning Representations (ICLR)</i>,
+2018.
+<br />
+<a href="javascript:toggleBibtex('KidambiNJK18')">[BibTeX]</a>
+<a id="displayTextKidambiNJK18" href="javascript:toggle('KidambiNJK18');">[Abstract]</a>
+<a href="all_papers/KidambiNJK18.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="slides/KidambiNJK18.pdf";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=slides/KidambiNJK18.pdf>[Slides]</a>");
+}
+var poster="posters/KidambiNJK18.pdf";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=posters/KidambiNJK18.pdf>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextKidambiNJK18" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">Momentum based stochastic gradient methods such as heavy ball (HB) and Nesterov's accelerated gradient descent (NAG) method are widely used in practice for training deep networks and other supervised learning models, as they often provide significant improvements over stochastic gradient descent (SGD). Rigorously speaking, fast gradient methods have provable improvements over gradient descent only for the deterministic case, where the gradients are exact. In the stochastic case, the popular explanations for their wide applicability is that when these fast gradient methods are applied in the stochastic case, they partially mimic their exact gradient counterparts, resulting in some practical gain. This work provides a counterpoint to this belief by proving that there exist simple problem instances where these methods cannot outperform SGD despite the best setting of its parameters. These negative problem instances are, in an informal sense, generic; they do not look like carefully constructed pathological instances. These results suggest (along with empirical evidence) that HB or NAG's practical performance gains are a by-product of minibatching. 
+Furthermore, this work provides a viable (and provable) alternative, which, on the same set of problem instances, significantly improves over HB, NAG, and SGD's performance. This algorithm, referred to as Accelerated Stochastic Gradient Descent (ASGD), is a simple to implement stochastic algorithm, based on a relatively less popular variant of Nesterov's Acceleration. Extensive empirical results in this paper show that ASGD has performance gains over HB, NAG, and SGD. The code for implementing the ASGD Algorithm can be found at https://github.com/rahulkidambi/AccSGD.</div>
+<div id="bib_KidambiNJK18" class="bibtex noshow">
+<pre>
+@inproceedings{KidambiNJK18,
+  author = {Rahul Kidambi and Praneeth Netrapalli and Prateek Jain and Sham M. Kakade},
+  title = {On the insufficiency of existing momentum schemes for Stochastic Optimization},
+  booktitle = {Proceedings of the International Conference on Learning Representations (ICLR)},
+  year = {2018},
+  note = {slides/KidambiNJK18.pdf},
+  url = {all_papers/KidambiNJK18.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: kalyanMPBJG18 -->
+<li >
+<b>Neural-Guided Deductive Search for Real-Time Program Synthesis from Examples</b><br>
+Ashwin Kalyan, Abhishek Mohta, Oleksandr Polozov, Dhruv Batra, Prateek Jain and Sumit Gulwani,<br>
+in <i>Proceedings of the International Conference on Learning Representations (ICLR)</i>,
+2018.
+<br />
+<a href="javascript:toggleBibtex('kalyanMPBJG18')">[BibTeX]</a>
+<a id="displayTextkalyanMPBJG18" href="javascript:toggle('kalyanMPBJG18');">[Abstract]</a>
+<a href="all_papers/kalyanMPBJG18.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="slides/kalyanMPBJG18.pdf";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=slides/kalyanMPBJG18.pdf>[Slides]</a>");
+}
+var poster="posters/kalyanMPBJG18.pdf";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=posters/kalyanMPBJG18.pdf>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextkalyanMPBJG18" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">Synthesizing user-intended programs from a small number of input-output exam-
+ples is a challenging problem with several important applications like spreadsheet
+manipulation, data wrangling and code refactoring. Existing synthesis systems
+either completely rely on deductive logic techniques that are extensively hand-
+engineered or on purely statistical models that need massive amounts of data, and in
+general fail to provide real-time synthesis on challenging benchmarks. In this work,
+we propose Neural Guided Deductive Search (NGDS), a hybrid synthesis technique
+that combines the best of both symbolic logic techniques and statistical models.
+Thus, it produces programs that satisfy the provided specifications by construction
+and generalize well on unseen examples, similar to data-driven systems. Our
+technique effectively utilizes the deductive search framework to reduce the learning
+problem of the neural component to a simple supervised learning setup. Further,
+this allows us to both train on sparingly available real-world data and still leverage
+powerful recurrent neural network encoders. We demonstrate the effectiveness
+of our method by evaluating on real-world customer scenarios by synthesizing
+accurate programs with up to 12× speed-up compared to state-of-the-art systems.</div>
+<div id="bib_kalyanMPBJG18" class="bibtex noshow">
+<pre>
+@inproceedings{kalyanMPBJG18,
+  author = {Ashwin Kalyan and Abhishek Mohta and Oleksandr Polozov and Dhruv Batra and Prateek Jain and Sumit Gulwani},
+  title = {Neural-Guided Deductive Search for Real-Time Program Synthesis from Examples},
+  booktitle = {Proceedings of the International Conference on Learning Representations (ICLR)},
+  year = {2018},
+  note = {slides/kalyanMPBJG18.pdf},
+  url = {all_papers/kalyanMPBJG18.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: PadhiJPPGM18 -->
+<li >
+<b>FlashProfile: a framework for synthesizing data profiles</b><br>
+Saswat Padhi, Prateek Jain, Daniel Perelman, Oleksandr Polozov, Sumit Gulwani and Todd D. Millstein,<br>
+in <i>Proceedings of Object-Oriented Programming, Systems, Languages and Applications (OOPSLA)</i>,
+2018.
+<br />
+<a href="javascript:toggleBibtex('PadhiJPPGM18')">[BibTeX]</a>
+<a id="displayTextPadhiJPPGM18" href="javascript:toggle('PadhiJPPGM18');">[Abstract]</a>
+<a href="all_papers/PadhiJPPGM18.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="slides/PadhiJPPGM18.pdf";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=slides/PadhiJPPGM18.pdf>[Slides]</a>");
+}
+var poster="";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextPadhiJPPGM18" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">We address the problem of learning a syntactic profile for a collection of strings, i.e. a set of regex-like patterns
+that succinctly describe the syntactic variations in the strings. Real-world datasets, typically curated from
+multiple sources, often contain data in various syntactic formats. Thus, any data processing task is preceded
+by the critical step of data format identification. However, manual inspection of data to identify the different
+formats is infeasible in standard big-data scenarios.
+Prior techniques are restricted to a small set of pre-defined patterns (e.g. digits, letters, words, etc.), and
+provide no control over granularity of profiles. We define syntactic profiling as a problem of clustering strings
+based on syntactic similarity, followed by identifying patterns that succinctly describe each cluster. We present
+a technique for synthesizing such profiles over a given language of patterns, that also allows for interactive
+refinement by requesting a desired number of clusters.
+Using a state-of-the-art inductive synthesis framework, PROSE, we have implemented our technique as
+FlashProfile. Across 153 tasks over 75 large real datasets, we observe a median profiling time of only 0.7 s.
+Furthermore, we show that access to syntactic profiles may allow for more accurate synthesis of programs, i.e.
+using fewer examples, in programming-by-example (PBE) workflows such as Flash Fill.</div>
+<div id="bib_PadhiJPPGM18" class="bibtex noshow">
+<pre>
+@inproceedings{PadhiJPPGM18,
+  author = {Saswat Padhi and Prateek Jain and Daniel Perelman and Oleksandr Polozov and Sumit Gulwani and Todd D. Millstein},
+  title = {FlashProfile: a framework for synthesizing data profiles},
+  booktitle = {Proceedings of Object-Oriented Programming, Systems, Languages and Applications (OOPSLA)},
+  year = {2018},
+  pages = {150:1--150:28},
+  note = {slides/PadhiJPPGM18.pdf},
+  url = {all_papers/PadhiJPPGM18.pdf},
+  doi = {https://doi.org/10.1145/3276520}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: RaghunathanJK17 -->
+<li >
+<b>Learning Mixture of Gaussians with Streaming Data</b><br>
+Aditi Raghunathan, Prateek Jain and Ravishankar Krishnaswamy,<br>
+in <i>Proceedings of the 30th Annual Conference on Advances in Neural Information Processing Systems (NIPS)</i>,
+2017.
+<br />
+<a href="javascript:toggleBibtex('RaghunathanJK17')">[BibTeX]</a>
+<a id="displayTextRaghunathanJK17" href="javascript:toggle('RaghunathanJK17');">[Abstract]</a>
+<a href="all_papers/RaghunathanJK17.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=>[Slides]</a>");
+}
+var poster="posters/RaghunathanJK17.pdf";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=posters/RaghunathanJK17.pdf>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextRaghunathanJK17" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">In this paper, we study the problem of learning a mixture of Gaussians with streaming data: given a stream of N points in d dimensions generated by an unknown mixture of k spherical Gaussians, the goal is to estimate the model parameters using a single pass over the data stream. We analyze a streaming version of the popular Lloyd's heuristic and show that the algorithm estimates all the unknown centers of the component Gaussians accurately if they are sufficiently separated. Assuming each pair of centers are Csigma distant with C\geq ((klogk)1/4sigma) and where sigma^2 is the maximum variance of any Gaussian component, we show that asymptotically the algorithm estimates the centers optimally (up to constants); our center separation requirement matches the best known result for spherical Gaussians \citep{vempalawang}. For finite samples, we show that a bias term based on the initial estimate decreases at O(1/poly(N)) rate while variance decreases at nearly optimal rate of sigma*2d/N. 
+Our analysis requires seeding the algorithm with a good initial estimate of the true cluster centers for which we provide an online PCA based clustering algorithm. Indeed, the asymptotic per-step time complexity of our algorithm is the optimal d⋅k while space complexity of our algorithm is O(dklogk). 
+In addition to the bias and variance terms which tend to 0, the hard-thresholding based updates of streaming Lloyd's algorithm is agnostic to the data distribution and hence incurs an approximation error that cannot be avoided. However, by using a streaming version of the classical (soft-thresholding-based) EM method that exploits the Gaussian distribution explicitly, we show that for a mixture of two Gaussians the true means can be estimated consistently, with estimation error decreasing at nearly optimal rate, and tending to 0 for N goes to infinity.</div>
+<div id="bib_RaghunathanJK17" class="bibtex noshow">
+<pre>
+@inproceedings{RaghunathanJK17,
+  author = {Aditi Raghunathan and Prateek Jain and Ravishankar Krishnaswamy},
+  title = {Learning Mixture of Gaussians with Streaming Data},
+  booktitle = {Proceedings of the 30th Annual Conference on Advances in Neural Information Processing Systems (NIPS)},
+  year = {2017},
+  pages = {6608--6617},
+  url = {all_papers/RaghunathanJK17.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: BhatiaJKK17 -->
+<li >
+<b>Consistent Robust Regression</b><br>
+Kush Bhatia, Prateek Jain, Parameswaran Kamalaruban and Purushottam Kar,<br>
+in <i>Proceedings of the 30th Annual Conference on Advances in Neural Information Processing Systems (NIPS)</i>,
+2017.
+<br />
+<a href="javascript:toggleBibtex('BhatiaJKK17')">[BibTeX]</a>
+<a id="displayTextBhatiaJKK17" href="javascript:toggle('BhatiaJKK17');">[Abstract]</a>
+<a href="all_papers/BhatiaJKK17.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=>[Slides]</a>");
+}
+var poster="posters/BhatiaJKK17.pdf";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=posters/BhatiaJKK17.pdf>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextBhatiaJKK17" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">We present the first efficient and provably consistent estimator for the robust regression problem. The area of robust learning and optimization has generated a significant amount of interest in the learning and statistics communities in recent years owing to its applicability in scenarios with corrupted data, as well as in handling model mis-specifications. In particular, special interest has been devoted to the fundamental problem of robust linear regression where estimators that can tolerate corruption in up to a constant fraction of the response variables are widely studied. Surprisingly however, to this date, we are not aware of a polynomial time estimator that offers a consistent estimate in the presence of dense, unbounded corruptions. In this work we present such an estimator, called CRR. This solves an open problem put forward in the work of (Bhatia et al, 2015). Our consistency analysis requires a novel two-stage proof technique involving a careful analysis of the stability of ordered lists which may be of independent interest. We show that CRR not only offers consistent estimates, but is empirically far superior to several other recently proposed algorithms for the robust regression problem, including extended Lasso and the TORRENT algorithm. In comparison, CRR offers comparable or better model recovery but with runtimes that are faster by an order of magnitude.</div>
+<div id="bib_BhatiaJKK17" class="bibtex noshow">
+<pre>
+@inproceedings{BhatiaJKK17,
+  author = {Kush Bhatia and Prateek Jain and Parameswaran Kamalaruban and Purushottam Kar},
+  title = {Consistent Robust Regression},
+  booktitle = {Proceedings of the 30th Annual Conference on Advances in Neural Information Processing Systems (NIPS)},
+  year = {2017},
+  pages = {2107--2116},
+  url = {all_papers/BhatiaJKK17.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: JainKKNPS17 -->
+<li >
+<b>A Markov Chain Theory Approach to Characterizing the Minimax Optimality of Stochastic Gradient Descent (for Least Squares)</b><br>
+Prateek Jain, Sham M. Kakade, Rahul Kidambi, Praneeth Netrapalli, Venkata Krishna Pillutla and Aaron Sidford,<br>
+in <i>Proceedings of the Thirty-seventh IARCS Annual Conference on Foundations of Software Technology and Theoretical Computer Science (FSTTCS)</i>,
+2017.
+<br />
+<a href="javascript:toggleBibtex('JainKKNPS17')">[BibTeX]</a>
+<a id="displayTextJainKKNPS17" href="javascript:toggle('JainKKNPS17');">[Abstract]</a>
+<a href="all_papers/JainKKNPS17.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=>[Slides]</a>");
+}
+var poster="";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextJainKKNPS17" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">This work provides a simplified proof of the statistical minimax optimality of (iterate averaged) stochastic gradient descent (SGD), for the special case of least squares. This result is obtained by analyzing SGD as a stochastic process and by sharply characterizing the stationary covariance matrix of this process. The finite rate optimality characterization captures the constant factors and addresses model mis-specification.</div>
+<div id="bib_JainKKNPS17" class="bibtex noshow">
+<pre>
+@inproceedings{JainKKNPS17,
+  author = {Prateek Jain and Sham M. Kakade and Rahul Kidambi and Praneeth Netrapalli and Venkata Krishna Pillutla and Aaron Sidford},
+  title = {A Markov Chain Theory Approach to Characterizing the Minimax Optimality of Stochastic Gradient Descent (for Least Squares)},
+  booktitle = {Proceedings of the Thirty-seventh IARCS Annual Conference on Foundations of Software Technology and Theoretical Computer Science (FSTTCS)},
+  year = {2017},
+  pages = {2:1--2:10},
+  url = {all_papers/JainKKNPS17.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: GulwaniJ17 -->
 <li >
 <b>Programming by Examples: PL meets ML</b><br>
 Sumit Gulwani and Prateek Jain,<br>
@@ -64,72 +679,23 @@ maintenance, and even personalization of a PBE system.</div>
 </pre>
 </div>
 </li>
-<br /><!-- Item: ChaudhuriJN17 -->
+<br /><!-- Item: ZhongSJBD17 -->
 <li >
-<b>Active Heteroscedastic Regression</b><br>
-Kamalika Chaudhuri, Prateek Jain and Nagarajan Natarajan,<br>
+<b>Recovery Guarantees for One-hidden-layer Neural Networks</b><br>
+Kai Zhong, Zhao Song, Prateek Jain, Peter L. Bartlett and Inderjit S. Dhillon,<br>
 in <i>Proceedings of the 34th International Conference on Machine Learning (ICML)</i>,
 2017.
 <br />
-<a href="javascript:toggleBibtex('ChaudhuriJN17')">[BibTeX]</a>
-<a id="displayTextChaudhuriJN17" href="javascript:toggle('ChaudhuriJN17');">[Abstract]</a>
-<a href="http://proceedings.mlr.press/v70/chaudhuri17a.html">[URL]</a>
+<a href="javascript:toggleBibtex('ZhongSJBD17')">[BibTeX]</a>
+<a id="displayTextZhongSJBD17" href="javascript:toggle('ZhongSJBD17');">[Abstract]</a>
+<a href="all_papers/ZSJBD17_ICML.pdf">[URL]</a>
 
 <script type="text/javascript">
-var slide="slides/test.pdf";
+var slide="slides/ZhongSJBD17.pdf";
 if(slide==""){
 document.write("");
 }else{
-document.write("<a href=slides/test.pdf>[Slides]</a>");
-}
-var poster="posters/test.pdf";
-var code="code/test.html";
-if(poster==""){
-document.write("");
-}else{
-document.write("<a href=posters/test.pdf>[Poster]</a>");
-}
-if(code==""){
-document.write("");
-}else{
-document.write("<a href=code/test.html>[Code]</a>");
-}
-</script>
-
-
-
-<div id="toggleTextChaudhuriJN17" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
-<div id="bib_ChaudhuriJN17" class="bibtex noshow">
-<pre>
-@inproceedings{ChaudhuriJN17,
-  author = {Kamalika Chaudhuri and Prateek Jain and Nagarajan Natarajan},
-  title = {Active Heteroscedastic Regression},
-  booktitle = {Proceedings of the 34th International Conference on Machine Learning (ICML)},
-  year = {2017},
-  pages = {694--702},
-  note = {slides/test.pdf},
-  url = {http://proceedings.mlr.press/v70/chaudhuri17a.html}
-}
-</pre>
-</div>
-</li>
-<br /><!-- Item: CherapanamjeriGJ17 -->
-<li >
-<b>Nearly Optimal Robust Matrix Completion</b><br>
-Yeshwanth Cherapanamjeri, Kartik Gupta and Prateek Jain,<br>
-in <i>Proceedings of the 34th International Conference on Machine Learning (ICML)</i>,
-2017.
-<br />
-<a href="javascript:toggleBibtex('CherapanamjeriGJ17')">[BibTeX]</a>
-<a id="displayTextCherapanamjeriGJ17" href="javascript:toggle('CherapanamjeriGJ17');">[Abstract]</a>
-<a href="http://proceedings.mlr.press/v70/cherapanamjeri17a.html">[URL]</a>
-
-<script type="text/javascript">
-var slide="";
-if(slide==""){
-document.write("");
-}else{
-document.write("<a href=>[Slides]</a>");
+document.write("<a href=slides/ZhongSJBD17.pdf>[Slides]</a>");
 }
 var poster="";
 var code="";
@@ -147,16 +713,17 @@ document.write("<a href=>[Code]</a>");
 
 
 
-<div id="toggleTextCherapanamjeriGJ17" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
-<div id="bib_CherapanamjeriGJ17" class="bibtex noshow">
+<div id="toggleTextZhongSJBD17" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
+<div id="bib_ZhongSJBD17" class="bibtex noshow">
 <pre>
-@inproceedings{CherapanamjeriGJ17,
-  author = {Yeshwanth Cherapanamjeri and Kartik Gupta and Prateek Jain},
-  title = {Nearly Optimal Robust Matrix Completion},
+@inproceedings{ZhongSJBD17,
+  author = {Kai Zhong and Zhao Song and Prateek Jain and Peter L. Bartlett and Inderjit S. Dhillon},
+  title = {Recovery Guarantees for One-hidden-layer Neural Networks},
   booktitle = {Proceedings of the 34th International Conference on Machine Learning (ICML)},
   year = {2017},
-  pages = {797--805},
-  url = {http://proceedings.mlr.press/v70/cherapanamjeri17a.html}
+  pages = {4140--4149},
+  note = {slides/ZhongSJBD17.pdf},
+  url = {all_papers/ZSJBD17_ICML.pdf}
 }
 </pre>
 </div>
@@ -209,23 +776,23 @@ document.write("<a href=https://github.com/Microsoft/EdgeML>[Code]</a>");
 </pre>
 </div>
 </li>
-<br /><!-- Item: ZhongSJBD17 -->
+<br /><!-- Item: CherapanamjeriGJ17 -->
 <li >
-<b>Recovery Guarantees for One-hidden-layer Neural Networks</b><br>
-Kai Zhong, Zhao Song, Prateek Jain, Peter L. Bartlett and Inderjit S. Dhillon,<br>
+<b>Nearly Optimal Robust Matrix Completion</b><br>
+Yeshwanth Cherapanamjeri, Kartik Gupta and Prateek Jain,<br>
 in <i>Proceedings of the 34th International Conference on Machine Learning (ICML)</i>,
 2017.
 <br />
-<a href="javascript:toggleBibtex('ZhongSJBD17')">[BibTeX]</a>
-<a id="displayTextZhongSJBD17" href="javascript:toggle('ZhongSJBD17');">[Abstract]</a>
-<a href="all_papers/ZSJBD17_ICML.pdf">[URL]</a>
+<a href="javascript:toggleBibtex('CherapanamjeriGJ17')">[BibTeX]</a>
+<a id="displayTextCherapanamjeriGJ17" href="javascript:toggle('CherapanamjeriGJ17');">[Abstract]</a>
+<a href="http://proceedings.mlr.press/v70/cherapanamjeri17a.html">[URL]</a>
 
 <script type="text/javascript">
-var slide="slides/ZhongSJBD17.pdf";
+var slide="";
 if(slide==""){
 document.write("");
 }else{
-document.write("<a href=slides/ZhongSJBD17.pdf>[Slides]</a>");
+document.write("<a href=>[Slides]</a>");
 }
 var poster="";
 var code="";
@@ -243,17 +810,65 @@ document.write("<a href=>[Code]</a>");
 
 
 
-<div id="toggleTextZhongSJBD17" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
-<div id="bib_ZhongSJBD17" class="bibtex noshow">
+<div id="toggleTextCherapanamjeriGJ17" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
+<div id="bib_CherapanamjeriGJ17" class="bibtex noshow">
 <pre>
-@inproceedings{ZhongSJBD17,
-  author = {Kai Zhong and Zhao Song and Prateek Jain and Peter L. Bartlett and Inderjit S. Dhillon},
-  title = {Recovery Guarantees for One-hidden-layer Neural Networks},
+@inproceedings{CherapanamjeriGJ17,
+  author = {Yeshwanth Cherapanamjeri and Kartik Gupta and Prateek Jain},
+  title = {Nearly Optimal Robust Matrix Completion},
   booktitle = {Proceedings of the 34th International Conference on Machine Learning (ICML)},
   year = {2017},
-  pages = {4140--4149},
-  note = {slides/ZhongSJBD17.pdf},
-  url = {all_papers/ZSJBD17_ICML.pdf}
+  pages = {797--805},
+  url = {http://proceedings.mlr.press/v70/cherapanamjeri17a.html}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: ChaudhuriJN17 -->
+<li >
+<b>Active Heteroscedastic Regression</b><br>
+Kamalika Chaudhuri, Prateek Jain and Nagarajan Natarajan,<br>
+in <i>Proceedings of the 34th International Conference on Machine Learning (ICML)</i>,
+2017.
+<br />
+<a href="javascript:toggleBibtex('ChaudhuriJN17')">[BibTeX]</a>
+<a id="displayTextChaudhuriJN17" href="javascript:toggle('ChaudhuriJN17');">[Abstract]</a>
+<a href="http://proceedings.mlr.press/v70/chaudhuri17a.html">[URL]</a>
+
+<script type="text/javascript">
+var slide="slides/test.pdf";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=slides/test.pdf>[Slides]</a>");
+}
+var poster="posters/test.pdf";
+var code="code/test.html";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=posters/test.pdf>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=code/test.html>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextChaudhuriJN17" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
+<div id="bib_ChaudhuriJN17" class="bibtex noshow">
+<pre>
+@inproceedings{ChaudhuriJN17,
+  author = {Kamalika Chaudhuri and Prateek Jain and Nagarajan Natarajan},
+  title = {Active Heteroscedastic Regression},
+  booktitle = {Proceedings of the 34th International Conference on Machine Learning (ICML)},
+  year = {2017},
+  pages = {694--702},
+  note = {slides/test.pdf},
+  url = {http://proceedings.mlr.press/v70/chaudhuri17a.html}
 }
 </pre>
 </div>
@@ -350,7 +965,7 @@ document.write("<a href=>[Code]</a>");
   year = {2017},
   pages = {79--86},
   url = {https://doi.org/10.1109/ICRA.2017.7989014},
-  doi = {http://doi.org/10.1109/ICRA.2017.7989014}
+  doi = {https://doi.org/10.1109/ICRA.2017.7989014}
 }
 </pre>
 </div>
@@ -499,54 +1114,6 @@ document.write("<a href=>[Code]</a>");
 </pre>
 </div>
 </li>
-<br /><!-- Item: NatarajanJ16 -->
-<li >
-<b>Regret Bounds for Non-decomposable Metrics with Missing Labels</b><br>
-Nagarajan Natarajan and Prateek Jain,<br>
-in <i>Advances in Neural Information Processing Systems 29: Annual Conference on Neural Information Processing Systems (NIPS)</i>,
-2016.
-<br />
-<a href="javascript:toggleBibtex('NatarajanJ16')">[BibTeX]</a>
-<a id="displayTextNatarajanJ16" href="javascript:toggle('NatarajanJ16');">[Abstract]</a>
-<a href="http://papers.nips.cc/paper/6178-regret-bounds-for-non-decomposable-metrics-with-missing-labels">[URL]</a>
-
-<script type="text/javascript">
-var slide="";
-if(slide==""){
-document.write("");
-}else{
-document.write("<a href=>[Slides]</a>");
-}
-var poster="";
-var code="";
-if(poster==""){
-document.write("");
-}else{
-document.write("<a href=>[Poster]</a>");
-}
-if(code==""){
-document.write("");
-}else{
-document.write("<a href=>[Code]</a>");
-}
-</script>
-
-
-
-<div id="toggleTextNatarajanJ16" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
-<div id="bib_NatarajanJ16" class="bibtex noshow">
-<pre>
-@inproceedings{NatarajanJ16,
-  author = {Nagarajan Natarajan and Prateek Jain},
-  title = {Regret Bounds for Non-decomposable Metrics with Missing Labels},
-  booktitle = {Advances in Neural Information Processing Systems 29: Annual Conference on Neural Information Processing Systems (NIPS)},
-  year = {2016},
-  pages = {2874--2882},
-  url = {http://papers.nips.cc/paper/6178-regret-bounds-for-non-decomposable-metrics-with-missing-labels}
-}
-</pre>
-</div>
-</li>
 <br /><!-- Item: YangBJL16 -->
 <li >
 <b>Selective inference for group-sparse linear models</b><br>
@@ -591,6 +1158,54 @@ document.write("<a href=>[Code]</a>");
   year = {2016},
   pages = {2469--2477},
   url = {http://papers.nips.cc/paper/6437-selective-inference-for-group-sparse-linear-models}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: NatarajanJ16 -->
+<li >
+<b>Regret Bounds for Non-decomposable Metrics with Missing Labels</b><br>
+Nagarajan Natarajan and Prateek Jain,<br>
+in <i>Advances in Neural Information Processing Systems 29: Annual Conference on Neural Information Processing Systems (NIPS)</i>,
+2016.
+<br />
+<a href="javascript:toggleBibtex('NatarajanJ16')">[BibTeX]</a>
+<a id="displayTextNatarajanJ16" href="javascript:toggle('NatarajanJ16');">[Abstract]</a>
+<a href="http://papers.nips.cc/paper/6178-regret-bounds-for-non-decomposable-metrics-with-missing-labels">[URL]</a>
+
+<script type="text/javascript">
+var slide="";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=>[Slides]</a>");
+}
+var poster="";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextNatarajanJ16" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
+<div id="bib_NatarajanJ16" class="bibtex noshow">
+<pre>
+@inproceedings{NatarajanJ16,
+  author = {Nagarajan Natarajan and Prateek Jain},
+  title = {Regret Bounds for Non-decomposable Metrics with Missing Labels},
+  booktitle = {Advances in Neural Information Processing Systems 29: Annual Conference on Neural Information Processing Systems (NIPS)},
+  year = {2016},
+  pages = {2874--2882},
+  url = {http://papers.nips.cc/paper/6178-regret-bounds-for-non-decomposable-metrics-with-missing-labels}
 }
 </pre>
 </div>
@@ -687,7 +1302,7 @@ document.write("<a href=>[Code]</a>");
   year = {2016},
   pages = {189--196},
   url = {http://doi.acm.org/10.1145/2911996.2911998},
-  doi = {http://doi.org/10.1145/2911996.2911998}
+  doi = {https://doi.org/10.1145/2911996.2911998}
 }
 </pre>
 </div>
@@ -832,58 +1447,7 @@ document.write("<a href=>[Code]</a>");
   year = {2015},
   pages = {3--18},
   url = {https://doi.org/10.1007/978-3-319-24486-0_1},
-  doi = {http://doi.org/10.1007/978-3-319-24486-0_1}
-}
-</pre>
-</div>
-</li>
-<br /><!-- Item: BhatiaJK15 -->
-<li >
-<b>Robust Regression via Hard Thresholding</b><br>
-Kush Bhatia, Prateek Jain and Purushottam Kar,<br>
-in <i>Proceedings of the 28th Annual Conference on Advances in Neural Information Processing Systems (NIPS)</i>,
-2015.
-<br />
-<a href="javascript:toggleBibtex('BhatiaJK15')">[BibTeX]</a>
-<a id="displayTextBhatiaJK15" href="javascript:toggle('BhatiaJK15');">[Abstract]</a>
-<a href="all_papers/BJK15_NIPS.pdf">[URL]</a>
-
-<script type="text/javascript">
-var slide="";
-if(slide==""){
-document.write("");
-}else{
-document.write("<a href=>[Slides]</a>");
-}
-var poster="";
-var code="";
-if(poster==""){
-document.write("");
-}else{
-document.write("<a href=>[Poster]</a>");
-}
-if(code==""){
-document.write("");
-}else{
-document.write("<a href=>[Code]</a>");
-}
-</script>
-
-
-
-<div id="toggleTextBhatiaJK15" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">We study the problem of Robust Least Squares Regression (RLSR) where several response variables can be adversarially corrupted. More specifically, for a data matrix $X\in \R^{p\times n}$ and an underlying model $\bto$, the response vector is generated as $\y=X^T\bto+\b$ where $\b\in \R^n$ is the corruption vector supported over at most $C\cdot n$ coordinates. Existing exact recovery results for RLSR focus solely on $L_1$-penalty based convex formulations and impose relatively strict model assumptions such as requiring the corruptions $\b$ to be selected independently of $X$.
-
-In this work, we study a simple hard-thresholding algorithm called \alg which, under mild conditions on $X$, can recover $\bto$ exactly even if $\b$ corrupts the response variables in an \emph{adversarial} manner, i.e. both the support and entries of $\b$ are selected adversarially after observing $X$ and $\bto$. Our results hold under \emph{deterministic} assumptions which are satisfied if $X$ is sampled from any sub-Gaussian distribution. Finally unlike existing results that apply only to a fixed $\bto$, generated independently of $X$, our results are \emph{universal} and hold for any $\bto\in \R^p$.
-Next, we propose gradient descent-based extensions of \alg that can scale efficiently to large scale problems, such as high dimensional sparse recovery, and prove similar recovery guarantees for these extensions. Empirically we find \alg, and more so its extensions, offering significantly faster recovery than the state-of-the-art $L_1$ solvers. Empirically we find \alg, and more so its extensions, offering significantly faster recovery than the state-of-the-art $L_1$ solvers. For instance, even on moderate-sized datasets (with $p=50K$) with around $40\%$ corrupted responses, a variant of our proposed method called \alg-HYB is more than $20\times$ faster than the best $L_1$ solver. 
-</div>
-<div id="bib_BhatiaJK15" class="bibtex noshow">
-<pre>
-@inproceedings{BhatiaJK15,
-  author = {Kush Bhatia and Prateek Jain and Purushottam Kar},
-  title = {Robust Regression via Hard Thresholding},
-  booktitle = {Proceedings of the 28th Annual Conference on Advances in Neural Information Processing Systems (NIPS)},
-  year = {2015},
-  url = {all_papers/BJK15_NIPS.pdf}
+  doi = {https://doi.org/10.1007/978-3-319-24486-0_1}
 }
 </pre>
 </div>
@@ -951,6 +1515,57 @@ are beyond the pale of leading embedding methods.</div>
   booktitle = {Proceedings of the 28th Annual Conference on Advances in Neural Information Processing Systems (NIPS)},
   year = {2015},
   url = {all_papers/BJKVJ15_NIPS.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: BhatiaJK15 -->
+<li >
+<b>Robust Regression via Hard Thresholding</b><br>
+Kush Bhatia, Prateek Jain and Purushottam Kar,<br>
+in <i>Proceedings of the 28th Annual Conference on Advances in Neural Information Processing Systems (NIPS)</i>,
+2015.
+<br />
+<a href="javascript:toggleBibtex('BhatiaJK15')">[BibTeX]</a>
+<a id="displayTextBhatiaJK15" href="javascript:toggle('BhatiaJK15');">[Abstract]</a>
+<a href="all_papers/BJK15_NIPS.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=>[Slides]</a>");
+}
+var poster="";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextBhatiaJK15" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">We study the problem of Robust Least Squares Regression (RLSR) where several response variables can be adversarially corrupted. More specifically, for a data matrix $X\in \R^{p\times n}$ and an underlying model $\bto$, the response vector is generated as $\y=X^T\bto+\b$ where $\b\in \R^n$ is the corruption vector supported over at most $C\cdot n$ coordinates. Existing exact recovery results for RLSR focus solely on $L_1$-penalty based convex formulations and impose relatively strict model assumptions such as requiring the corruptions $\b$ to be selected independently of $X$.
+
+In this work, we study a simple hard-thresholding algorithm called \alg which, under mild conditions on $X$, can recover $\bto$ exactly even if $\b$ corrupts the response variables in an \emph{adversarial} manner, i.e. both the support and entries of $\b$ are selected adversarially after observing $X$ and $\bto$. Our results hold under \emph{deterministic} assumptions which are satisfied if $X$ is sampled from any sub-Gaussian distribution. Finally unlike existing results that apply only to a fixed $\bto$, generated independently of $X$, our results are \emph{universal} and hold for any $\bto\in \R^p$.
+Next, we propose gradient descent-based extensions of \alg that can scale efficiently to large scale problems, such as high dimensional sparse recovery, and prove similar recovery guarantees for these extensions. Empirically we find \alg, and more so its extensions, offering significantly faster recovery than the state-of-the-art $L_1$ solvers. Empirically we find \alg, and more so its extensions, offering significantly faster recovery than the state-of-the-art $L_1$ solvers. For instance, even on moderate-sized datasets (with $p=50K$) with around $40\%$ corrupted responses, a variant of our proposed method called \alg-HYB is more than $20\times$ faster than the best $L_1$ solver. 
+</div>
+<div id="bib_BhatiaJK15" class="bibtex noshow">
+<pre>
+@inproceedings{BhatiaJK15,
+  author = {Kush Bhatia and Prateek Jain and Purushottam Kar},
+  title = {Robust Regression via Hard Thresholding},
+  booktitle = {Proceedings of the 28th Annual Conference on Advances in Neural Information Processing Systems (NIPS)},
+  year = {2015},
+  url = {all_papers/BJK15_NIPS.pdf}
 }
 </pre>
 </div>
@@ -1254,7 +1869,7 @@ Our new approach enables two extensions that are interesting on their own. The f
   year = {2015},
   pages = {902--920},
   url = {all_papers/BJS15_SODA.pdf},
-  doi = {http://doi.org/10.1137/1.9781611973730.62}
+  doi = {https://doi.org/10.1137/1.9781611973730.62}
 }
 </pre>
 </div>
@@ -1404,54 +2019,6 @@ Moreover, we also show that under certain stricter incoherence conditions, $O(nr
 </pre>
 </div>
 </li>
-<br /><!-- Item: JainT14 -->
-<li >
-<b>(Near) Dimension Independent Risk Bounds for Differentially Private Learning</b><br>
-Prateek Jain and Abhradeep Guha Thakurta,<br>
-in <i>Proceedings of the 31th International Conference on Machine Learning (ICML)</i>,
-2014.
-<br />
-<a href="javascript:toggleBibtex('JainT14')">[BibTeX]</a>
-<a id="displayTextJainT14" href="javascript:toggle('JainT14');">[Abstract]</a>
-<a href="all_papers/JT14_ICML.pdf">[URL]</a>
-
-<script type="text/javascript">
-var slide="";
-if(slide==""){
-document.write("");
-}else{
-document.write("<a href=>[Slides]</a>");
-}
-var poster="";
-var code="";
-if(poster==""){
-document.write("");
-}else{
-document.write("<a href=>[Poster]</a>");
-}
-if(code==""){
-document.write("");
-}else{
-document.write("<a href=>[Code]</a>");
-}
-</script>
-
-
-
-<div id="toggleTextJainT14" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
-<div id="bib_JainT14" class="bibtex noshow">
-<pre>
-@inproceedings{JainT14,
-  author = {Prateek Jain and Abhradeep Guha Thakurta},
-  title = {(Near) Dimension Independent Risk Bounds for Differentially Private Learning},
-  booktitle = {Proceedings of the 31th International Conference on Machine Learning (ICML)},
-  year = {2014},
-  pages = {476--484},
-  url = {all_papers/JT14_ICML.pdf}
-}
-</pre>
-</div>
-</li>
 <br /><!-- Item: YuJKD14 -->
 <li >
 <b>Large-scale Multi-label Learning with Missing Labels</b><br>
@@ -1496,6 +2063,54 @@ document.write("<a href=>[Code]</a>");
   year = {2014},
   pages = {593--601},
   url = {all_papers/YJKD14_ICML.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: JainT14 -->
+<li >
+<b>(Near) Dimension Independent Risk Bounds for Differentially Private Learning</b><br>
+Prateek Jain and Abhradeep Guha Thakurta,<br>
+in <i>Proceedings of the 31th International Conference on Machine Learning (ICML)</i>,
+2014.
+<br />
+<a href="javascript:toggleBibtex('JainT14')">[BibTeX]</a>
+<a id="displayTextJainT14" href="javascript:toggle('JainT14');">[Abstract]</a>
+<a href="all_papers/JT14_ICML.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=>[Slides]</a>");
+}
+var poster="";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextJainT14" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
+<div id="bib_JainT14" class="bibtex noshow">
+<pre>
+@inproceedings{JainT14,
+  author = {Prateek Jain and Abhradeep Guha Thakurta},
+  title = {(Near) Dimension Independent Risk Bounds for Differentially Private Learning},
+  booktitle = {Proceedings of the 31th International Conference on Machine Learning (ICML)},
+  year = {2014},
+  pages = {476--484},
+  url = {all_papers/JT14_ICML.pdf}
 }
 </pre>
 </div>
@@ -1607,54 +2222,6 @@ We use recently developed techniques from tensor decompositions for moment match
 </pre>
 </div>
 </li>
-<br /><!-- Item: MitliagkasC013 -->
-<li >
-<b>Memory Limited, Streaming PCA</b><br>
-Ioannis Mitliagkas, Constantine Caramanis and Prateek Jain,<br>
-in <i>Proceedings of the 27th Annual Conference on Neural Information Processing Systems (NIPS)</i>,
-2013.
-<br />
-<a href="javascript:toggleBibtex('MitliagkasC013')">[BibTeX]</a>
-<a id="displayTextMitliagkasC013" href="javascript:toggle('MitliagkasC013');">[Abstract]</a>
-<a href="http://papers.nips.cc/paper/5035-memory-limited-streaming-pca">[URL]</a>
-
-<script type="text/javascript">
-var slide="";
-if(slide==""){
-document.write("");
-}else{
-document.write("<a href=>[Slides]</a>");
-}
-var poster="";
-var code="";
-if(poster==""){
-document.write("");
-}else{
-document.write("<a href=>[Poster]</a>");
-}
-if(code==""){
-document.write("");
-}else{
-document.write("<a href=>[Code]</a>");
-}
-</script>
-
-
-
-<div id="toggleTextMitliagkasC013" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">We consider streaming, one-pass principal component analysis (PCA), in the high-dimensional regime, with limited memory. Here, $p$-dimensional samples are presented sequentially, and the goal is to produce the $k$-dimensional subspace that best approximates these points. Standard algorithms require $O(p^2)$ memory; meanwhile no algorithm can do better than $O(kp)$ memory, since this is what the output itself requires. Memory (or storage) complexity is most meaningful when understood in the context of computational and sample complexity. Sample complexity for high-dimensional PCA is typically studied in the setting of the {\em spiked covariance model}, where $p$-dimensional points are generated from a population covariance equal to the identity (white noise) plus a low-dimensional perturbation (the spike) which is the signal to be recovered. It is now well-understood that the spike can be recovered when the number of samples, $n$, scales proportionally with the dimension, $p$. Yet, all algorithms that provably achieve this, have memory complexity $O(p^2)$. Meanwhile, algorithms with memory-complexity $O(kp)$ do not have provable bounds on sample complexity comparable to $p$. We present an algorithm that achieves both: it uses $O(kp)$ memory (meaning storage of any kind) and is able to compute the $k$-dimensional spike with $O(p \log p)$ sample-complexity -- the first algorithm of its kind. While our theoretical analysis focuses on the spiked covariance model, our simulations show that our algorithm is successful on much more general models for the data.</div>
-<div id="bib_MitliagkasC013" class="bibtex noshow">
-<pre>
-@inproceedings{MitliagkasC013,
-  author = {Ioannis Mitliagkas and Constantine Caramanis and Prateek Jain},
-  title = {Memory Limited, Streaming PCA},
-  booktitle = {Proceedings of the 27th Annual Conference on Neural Information Processing Systems (NIPS)},
-  year = {2013},
-  pages = {2886--2894},
-  url = {http://papers.nips.cc/paper/5035-memory-limited-streaming-pca}
-}
-</pre>
-</div>
-</li>
 <br /><!-- Item: NetrapalliJS13 -->
 <li >
 <b>Phase Retrieval using Alternating Minimization</b><br>
@@ -1713,6 +2280,54 @@ theoretical guarantee for alternating minimization for any variant of phase retr
 </pre>
 </div>
 </li>
+<br /><!-- Item: MitliagkasC013 -->
+<li >
+<b>Memory Limited, Streaming PCA</b><br>
+Ioannis Mitliagkas, Constantine Caramanis and Prateek Jain,<br>
+in <i>Proceedings of the 27th Annual Conference on Neural Information Processing Systems (NIPS)</i>,
+2013.
+<br />
+<a href="javascript:toggleBibtex('MitliagkasC013')">[BibTeX]</a>
+<a id="displayTextMitliagkasC013" href="javascript:toggle('MitliagkasC013');">[Abstract]</a>
+<a href="http://papers.nips.cc/paper/5035-memory-limited-streaming-pca">[URL]</a>
+
+<script type="text/javascript">
+var slide="";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=>[Slides]</a>");
+}
+var poster="";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextMitliagkasC013" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">We consider streaming, one-pass principal component analysis (PCA), in the high-dimensional regime, with limited memory. Here, $p$-dimensional samples are presented sequentially, and the goal is to produce the $k$-dimensional subspace that best approximates these points. Standard algorithms require $O(p^2)$ memory; meanwhile no algorithm can do better than $O(kp)$ memory, since this is what the output itself requires. Memory (or storage) complexity is most meaningful when understood in the context of computational and sample complexity. Sample complexity for high-dimensional PCA is typically studied in the setting of the {\em spiked covariance model}, where $p$-dimensional points are generated from a population covariance equal to the identity (white noise) plus a low-dimensional perturbation (the spike) which is the signal to be recovered. It is now well-understood that the spike can be recovered when the number of samples, $n$, scales proportionally with the dimension, $p$. Yet, all algorithms that provably achieve this, have memory complexity $O(p^2)$. Meanwhile, algorithms with memory-complexity $O(kp)$ do not have provable bounds on sample complexity comparable to $p$. We present an algorithm that achieves both: it uses $O(kp)$ memory (meaning storage of any kind) and is able to compute the $k$-dimensional spike with $O(p \log p)$ sample-complexity -- the first algorithm of its kind. While our theoretical analysis focuses on the spiked covariance model, our simulations show that our algorithm is successful on much more general models for the data.</div>
+<div id="bib_MitliagkasC013" class="bibtex noshow">
+<pre>
+@inproceedings{MitliagkasC013,
+  author = {Ioannis Mitliagkas and Constantine Caramanis and Prateek Jain},
+  title = {Memory Limited, Streaming PCA},
+  booktitle = {Proceedings of the 27th Annual Conference on Neural Information Processing Systems (NIPS)},
+  year = {2013},
+  pages = {2886--2894},
+  url = {http://papers.nips.cc/paper/5035-memory-limited-streaming-pca}
+}
+</pre>
+</div>
+</li>
 <br /><!-- Item: GopiN0N13 -->
 <li >
 <b>One-Bit Compressed Sensing: Provable Support and Vector Recovery</b><br>
@@ -1757,54 +2372,6 @@ document.write("<a href=>[Code]</a>");
   year = {2013},
   pages = {154--162},
   url = {http://jmlr.org/proceedings/papers/v28/gopi13.html}
-}
-</pre>
-</div>
-</li>
-<br /><!-- Item: JainT13 -->
-<li >
-<b>Differentially Private Learning with Kernels</b><br>
-Prateek Jain and Abhradeep Thakurta,<br>
-in <i>Proceedings of the 30th International Conference on Machine Learning (ICML)</i>,
-2013.
-<br />
-<a href="javascript:toggleBibtex('JainT13')">[BibTeX]</a>
-<a id="displayTextJainT13" href="javascript:toggle('JainT13');">[Abstract]</a>
-<a href="all_papers/JT13_ICML.pdf">[URL]</a>
-
-<script type="text/javascript">
-var slide="";
-if(slide==""){
-document.write("");
-}else{
-document.write("<a href=>[Slides]</a>");
-}
-var poster="";
-var code="";
-if(poster==""){
-document.write("");
-}else{
-document.write("<a href=>[Poster]</a>");
-}
-if(code==""){
-document.write("");
-}else{
-document.write("<a href=>[Code]</a>");
-}
-</script>
-
-
-
-<div id="toggleTextJainT13" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
-<div id="bib_JainT13" class="bibtex noshow">
-<pre>
-@inproceedings{JainT13,
-  author = {Prateek Jain and Abhradeep Thakurta},
-  title = {Differentially Private Learning with Kernels},
-  booktitle = {Proceedings of the 30th International Conference on Machine Learning (ICML)},
-  year = {2013},
-  pages = {118--126},
-  url = {all_papers/JT13_ICML.pdf}
 }
 </pre>
 </div>
@@ -1869,6 +2436,54 @@ problems with bounded regret guarantees.</div>
 </pre>
 </div>
 </li>
+<br /><!-- Item: JainT13 -->
+<li >
+<b>Differentially Private Learning with Kernels</b><br>
+Prateek Jain and Abhradeep Thakurta,<br>
+in <i>Proceedings of the 30th International Conference on Machine Learning (ICML)</i>,
+2013.
+<br />
+<a href="javascript:toggleBibtex('JainT13')">[BibTeX]</a>
+<a id="displayTextJainT13" href="javascript:toggle('JainT13');">[Abstract]</a>
+<a href="all_papers/JT13_ICML.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=>[Slides]</a>");
+}
+var poster="";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextJainT13" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
+<div id="bib_JainT13" class="bibtex noshow">
+<pre>
+@inproceedings{JainT13,
+  author = {Prateek Jain and Abhradeep Thakurta},
+  title = {Differentially Private Learning with Kernels},
+  booktitle = {Proceedings of the 30th International Conference on Machine Learning (ICML)},
+  year = {2013},
+  pages = {118--126},
+  url = {all_papers/JT13_ICML.pdf}
+}
+</pre>
+</div>
+</li>
 <br /><!-- Item: JainNS13 -->
 <li >
 <b>Low-rank matrix completion using alternating minimization</b><br>
@@ -1913,7 +2528,7 @@ document.write("<a href=>[Code]</a>");
   year = {2013},
   pages = {665--674},
   url = {http://doi.acm.org/10.1145/2488608.2488693},
-  doi = {http://doi.org/10.1145/2488608.2488693}
+  doi = {https://doi.org/10.1145/2488608.2488693}
 }
 </pre>
 </div>
@@ -1991,54 +2606,6 @@ under budget constraints.</div>
 </pre>
 </div>
 </li>
-<br /><!-- Item: KapoorVJ12 -->
-<li >
-<b>Multilabel Classification using Bayesian Compressed Sensing</b><br>
-Ashish Kapoor, Raajay Viswanathan and Prateek Jain,<br>
-in <i>Proceedings of the 26th Annual Conference on Neural Information Processing Systems (NIPS)</i>,
-2012.
-<br />
-<a href="javascript:toggleBibtex('KapoorVJ12')">[BibTeX]</a>
-<a id="displayTextKapoorVJ12" href="javascript:toggle('KapoorVJ12');">[Abstract]</a>
-<a href="http://books.nips.cc/papers/files/nips25/NIPS2012_1243.pdf">[URL]</a>
-
-<script type="text/javascript">
-var slide="";
-if(slide==""){
-document.write("");
-}else{
-document.write("<a href=>[Slides]</a>");
-}
-var poster="";
-var code="";
-if(poster==""){
-document.write("");
-}else{
-document.write("<a href=>[Poster]</a>");
-}
-if(code==""){
-document.write("");
-}else{
-document.write("<a href=>[Code]</a>");
-}
-</script>
-
-
-
-<div id="toggleTextKapoorVJ12" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
-<div id="bib_KapoorVJ12" class="bibtex noshow">
-<pre>
-@inproceedings{KapoorVJ12,
-  author = {Ashish Kapoor and Raajay Viswanathan and Prateek Jain},
-  title = {Multilabel Classification using Bayesian Compressed Sensing},
-  booktitle = {Proceedings of the 26th Annual Conference on Neural Information Processing Systems (NIPS)},
-  year = {2012},
-  pages = {2654--2662},
-  url = {http://books.nips.cc/papers/files/nips25/NIPS2012_1243.pdf}
-}
-</pre>
-</div>
-</li>
 <br /><!-- Item: KarJ12 -->
 <li >
 <b>Supervised Learning with Similarity Functions</b><br>
@@ -2087,16 +2654,16 @@ document.write("<a href=>[Code]</a>");
 </pre>
 </div>
 </li>
-<br /><!-- Item: HossainPLJBR12 -->
+<br /><!-- Item: KapoorVJ12 -->
 <li >
-<b>Improved multiple sequence alignments using coupled pattern mining</b><br>
-K. S. M. Tozammel Hossain, Debprakash Patnaik, Srivatsan Laxman, Prateek Jain, Chris Bailey-Kellogg and Naren Ramakrishnan,<br>
-in <i>Proceedings of the ACM International Conference on Bioinformatics, Computational Biology and Biomedicine (BCB)</i>,
+<b>Multilabel Classification using Bayesian Compressed Sensing</b><br>
+Ashish Kapoor, Raajay Viswanathan and Prateek Jain,<br>
+in <i>Proceedings of the 26th Annual Conference on Neural Information Processing Systems (NIPS)</i>,
 2012.
 <br />
-<a href="javascript:toggleBibtex('HossainPLJBR12')">[BibTeX]</a>
-<a id="displayTextHossainPLJBR12" href="javascript:toggle('HossainPLJBR12');">[Abstract]</a>
-<a href="http://doi.acm.org/10.1145/2382936.2382940">[URL]</a>
+<a href="javascript:toggleBibtex('KapoorVJ12')">[BibTeX]</a>
+<a id="displayTextKapoorVJ12" href="javascript:toggle('KapoorVJ12');">[Abstract]</a>
+<a href="http://books.nips.cc/papers/files/nips25/NIPS2012_1243.pdf">[URL]</a>
 
 <script type="text/javascript">
 var slide="";
@@ -2121,17 +2688,16 @@ document.write("<a href=>[Code]</a>");
 
 
 
-<div id="toggleTextHossainPLJBR12" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
-<div id="bib_HossainPLJBR12" class="bibtex noshow">
+<div id="toggleTextKapoorVJ12" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
+<div id="bib_KapoorVJ12" class="bibtex noshow">
 <pre>
-@inproceedings{HossainPLJBR12,
-  author = {K. S. M. Tozammel Hossain and Debprakash Patnaik and Srivatsan Laxman and Prateek Jain and Chris Bailey-Kellogg and Naren Ramakrishnan},
-  title = {Improved multiple sequence alignments using coupled pattern mining},
-  booktitle = {Proceedings of the ACM International Conference on Bioinformatics, Computational Biology and Biomedicine (BCB)},
+@inproceedings{KapoorVJ12,
+  author = {Ashish Kapoor and Raajay Viswanathan and Prateek Jain},
+  title = {Multilabel Classification using Bayesian Compressed Sensing},
+  booktitle = {Proceedings of the 26th Annual Conference on Neural Information Processing Systems (NIPS)},
   year = {2012},
-  pages = {28--35},
-  url = {http://doi.acm.org/10.1145/2382936.2382940},
-  doi = {http://doi.org/10.1145/2382936.2382940}
+  pages = {2654--2662},
+  url = {http://books.nips.cc/papers/files/nips25/NIPS2012_1243.pdf}
 }
 </pre>
 </div>
@@ -2191,7 +2757,56 @@ ones by [HR10, GRU11].</div>
   year = {2012},
   pages = {579--590},
   url = {http://dx.doi.org/10.1007/978-3-642-32512-0_49},
-  doi = {http://doi.org/10.1007/978-3-642-32512-0_49}
+  doi = {https://doi.org/10.1007/978-3-642-32512-0_49}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: HossainPLJBR12 -->
+<li >
+<b>Improved multiple sequence alignments using coupled pattern mining</b><br>
+K. S. M. Tozammel Hossain, Debprakash Patnaik, Srivatsan Laxman, Prateek Jain, Chris Bailey-Kellogg and Naren Ramakrishnan,<br>
+in <i>Proceedings of the ACM International Conference on Bioinformatics, Computational Biology and Biomedicine (BCB)</i>,
+2012.
+<br />
+<a href="javascript:toggleBibtex('HossainPLJBR12')">[BibTeX]</a>
+<a id="displayTextHossainPLJBR12" href="javascript:toggle('HossainPLJBR12');">[Abstract]</a>
+<a href="http://doi.acm.org/10.1145/2382936.2382940">[URL]</a>
+
+<script type="text/javascript">
+var slide="";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=>[Slides]</a>");
+}
+var poster="";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextHossainPLJBR12" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
+<div id="bib_HossainPLJBR12" class="bibtex noshow">
+<pre>
+@inproceedings{HossainPLJBR12,
+  author = {K. S. M. Tozammel Hossain and Debprakash Patnaik and Srivatsan Laxman and Prateek Jain and Chris Bailey-Kellogg and Naren Ramakrishnan},
+  title = {Improved multiple sequence alignments using coupled pattern mining},
+  booktitle = {Proceedings of the ACM International Conference on Bioinformatics, Computational Biology and Biomedicine (BCB)},
+  year = {2012},
+  pages = {28--35},
+  url = {http://doi.acm.org/10.1145/2382936.2382940},
+  doi = {https://doi.org/10.1145/2382936.2382940}
 }
 </pre>
 </div>
@@ -2244,54 +2859,6 @@ document.write("<a href=>[Code]</a>");
 </pre>
 </div>
 </li>
-<br /><!-- Item: JainTD11 -->
-<li >
-<b>Orthogonal Matching Pursuit with Replacement</b><br>
-Prateek Jain, Ambuj Tewari and Inderjit S. Dhillon,<br>
-in <i>Proceedings of the 25th Annual Conference on Neural Information Processing Systems (NIPS)</i>,
-2011.
-<br />
-<a href="javascript:toggleBibtex('JainTD11')">[BibTeX]</a>
-<a id="displayTextJainTD11" href="javascript:toggle('JainTD11');">[Abstract]</a>
-<a href="http://books.nips.cc/papers/files/nips24/NIPS2011_0707.pdf">[URL]</a>
-
-<script type="text/javascript">
-var slide="";
-if(slide==""){
-document.write("");
-}else{
-document.write("<a href=>[Slides]</a>");
-}
-var poster="";
-var code="";
-if(poster==""){
-document.write("");
-}else{
-document.write("<a href=>[Poster]</a>");
-}
-if(code==""){
-document.write("");
-}else{
-document.write("<a href=>[Code]</a>");
-}
-</script>
-
-
-
-<div id="toggleTextJainTD11" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
-<div id="bib_JainTD11" class="bibtex noshow">
-<pre>
-@inproceedings{JainTD11,
-  author = {Prateek Jain and Ambuj Tewari and Inderjit S. Dhillon},
-  title = {Orthogonal Matching Pursuit with Replacement},
-  booktitle = {Proceedings of the 25th Annual Conference on Neural Information Processing Systems (NIPS)},
-  year = {2011},
-  pages = {1215--1223},
-  url = {http://books.nips.cc/papers/files/nips24/NIPS2011_0707.pdf}
-}
-</pre>
-</div>
-</li>
 <br /><!-- Item: KarJ11 -->
 <li >
 <b>Similarity-based Learning via Data Driven Embeddings</b><br>
@@ -2340,16 +2907,16 @@ document.write("<a href=>[Code]</a>");
 </pre>
 </div>
 </li>
-<br /><!-- Item: JainVG10 -->
+<br /><!-- Item: JainTD11 -->
 <li >
-<b>Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning</b><br>
-Prateek Jain, Sudheendra Vijayanarasimhan and Kristen Grauman,<br>
-in <i>Proceedings of the 24th Annual Conference on Neural Information Processing Systems 2010 (NIPS)</i>,
-2010.
+<b>Orthogonal Matching Pursuit with Replacement</b><br>
+Prateek Jain, Ambuj Tewari and Inderjit S. Dhillon,<br>
+in <i>Proceedings of the 25th Annual Conference on Neural Information Processing Systems (NIPS)</i>,
+2011.
 <br />
-<a href="javascript:toggleBibtex('JainVG10')">[BibTeX]</a>
-<a id="displayTextJainVG10" href="javascript:toggle('JainVG10');">[Abstract]</a>
-<a href="http://books.nips.cc/papers/files/nips23/NIPS2010_0757.pdf">[URL]</a>
+<a href="javascript:toggleBibtex('JainTD11')">[BibTeX]</a>
+<a id="displayTextJainTD11" href="javascript:toggle('JainTD11');">[Abstract]</a>
+<a href="http://books.nips.cc/papers/files/nips24/NIPS2011_0707.pdf">[URL]</a>
 
 <script type="text/javascript">
 var slide="";
@@ -2374,16 +2941,16 @@ document.write("<a href=>[Code]</a>");
 
 
 
-<div id="toggleTextJainVG10" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
-<div id="bib_JainVG10" class="bibtex noshow">
+<div id="toggleTextJainTD11" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
+<div id="bib_JainTD11" class="bibtex noshow">
 <pre>
-@inproceedings{JainVG10,
-  author = {Prateek Jain and Sudheendra Vijayanarasimhan and Kristen Grauman},
-  title = {Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning},
-  booktitle = {Proceedings of the 24th Annual Conference on Neural Information Processing Systems 2010 (NIPS)},
-  year = {2010},
-  pages = {928--936},
-  url = {http://books.nips.cc/papers/files/nips23/NIPS2010_0757.pdf}
+@inproceedings{JainTD11,
+  author = {Prateek Jain and Ambuj Tewari and Inderjit S. Dhillon},
+  title = {Orthogonal Matching Pursuit with Replacement},
+  booktitle = {Proceedings of the 25th Annual Conference on Neural Information Processing Systems (NIPS)},
+  year = {2011},
+  pages = {1215--1223},
+  url = {http://books.nips.cc/papers/files/nips24/NIPS2011_0707.pdf}
 }
 </pre>
 </div>
@@ -2432,6 +2999,54 @@ document.write("<a href=>[Code]</a>");
   year = {2010},
   pages = {946--954},
   url = {http://books.nips.cc/papers/files/nips23/NIPS2010_0603.pdf}
+}
+</pre>
+</div>
+</li>
+<br /><!-- Item: JainVG10 -->
+<li >
+<b>Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning</b><br>
+Prateek Jain, Sudheendra Vijayanarasimhan and Kristen Grauman,<br>
+in <i>Proceedings of the 24th Annual Conference on Neural Information Processing Systems 2010 (NIPS)</i>,
+2010.
+<br />
+<a href="javascript:toggleBibtex('JainVG10')">[BibTeX]</a>
+<a id="displayTextJainVG10" href="javascript:toggle('JainVG10');">[Abstract]</a>
+<a href="http://books.nips.cc/papers/files/nips23/NIPS2010_0757.pdf">[URL]</a>
+
+<script type="text/javascript">
+var slide="";
+if(slide==""){
+document.write("");
+}else{
+document.write("<a href=>[Slides]</a>");
+}
+var poster="";
+var code="";
+if(poster==""){
+document.write("");
+}else{
+document.write("<a href=>[Poster]</a>");
+}
+if(code==""){
+document.write("");
+}else{
+document.write("<a href=>[Code]</a>");
+}
+</script>
+
+
+
+<div id="toggleTextJainVG10" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee"></div>
+<div id="bib_JainVG10" class="bibtex noshow">
+<pre>
+@inproceedings{JainVG10,
+  author = {Prateek Jain and Sudheendra Vijayanarasimhan and Kristen Grauman},
+  title = {Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning},
+  booktitle = {Proceedings of the 24th Annual Conference on Neural Information Processing Systems 2010 (NIPS)},
+  year = {2010},
+  pages = {928--936},
+  url = {http://books.nips.cc/papers/files/nips23/NIPS2010_0757.pdf}
 }
 </pre>
 </div>
@@ -2528,7 +3143,7 @@ document.write("<a href=>[Code]</a>");
   year = {2010},
   pages = {3035--3042},
   url = {http://dx.doi.org/10.1109/CVPR.2010.5540055},
-  doi = {http://doi.org/10.1109/CVPR.2010.5540055}
+  doi = {https://doi.org/10.1109/CVPR.2010.5540055}
 }
 </pre>
 </div>
@@ -2625,7 +3240,7 @@ document.write("<a href=>[Code]</a>");
   year = {2009},
   pages = {673--680},
   url = {http://doi.acm.org/10.1145/1553374.1553461},
-  doi = {http://doi.org/10.1145/1553374.1553461}
+  doi = {https://doi.org/10.1145/1553374.1553461}
 }
 </pre>
 </div>
@@ -2674,7 +3289,7 @@ document.write("<a href=>[Code]</a>");
   year = {2009},
   pages = {762--769},
   url = {http://dx.doi.org/10.1109/CVPRW.2009.5206651},
-  doi = {http://doi.org/10.1109/CVPRW.2009.5206651}
+  doi = {https://doi.org/10.1109/CVPRW.2009.5206651}
 }
 </pre>
 </div>
@@ -2771,7 +3386,7 @@ document.write("<a href=>[Code]</a>");
   year = {2008},
   pages = {656--663},
   url = {http://doi.acm.org/10.1145/1390156.1390239},
-  doi = {http://doi.org/10.1145/1390156.1390239}
+  doi = {https://doi.org/10.1145/1390156.1390239}
 }
 </pre>
 </div>
@@ -2819,7 +3434,7 @@ document.write("<a href=>[Code]</a>");
   booktitle = {Proceedings of IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR)},
   year = {2008},
   url = {http://dx.doi.org/10.1109/CVPR.2008.4587841},
-  doi = {http://doi.org/10.1109/CVPR.2008.4587841}
+  doi = {https://doi.org/10.1109/CVPR.2008.4587841}
 }
 </pre>
 </div>
@@ -2868,7 +3483,7 @@ document.write("<a href=>[Code]</a>");
   year = {2008},
   pages = {858--869},
   url = {http://dx.doi.org/10.1137/1.9781611972788.77},
-  doi = {http://doi.org/10.1137/1.9781611972788.77}
+  doi = {https://doi.org/10.1137/1.9781611972788.77}
 }
 </pre>
 </div>
@@ -2917,7 +3532,7 @@ document.write("<a href=>[Code]</a>");
   year = {2007},
   pages = {209--216},
   url = {http://doi.acm.org/10.1145/1273496.1273523},
-  doi = {http://doi.org/10.1145/1273496.1273523}
+  doi = {https://doi.org/10.1145/1273496.1273523}
 }
 </pre>
 </div>
