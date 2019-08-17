@@ -7,7 +7,7 @@ permalink: /
 ---
 <img src="{{ site.url }}{{ site.baseurl }}/images/newpic.jpg" class="img-responsive" width="23%" style="float: left; padding: 15px;" />
  <br>
- Researcher, Microsoft Research<br>
+ Sr. Principal Researcher, Microsoft Research<br>
  Adjunct Faculty, IIT Kanpur<br>
  Contact:
  Microsoft Research Lab, "Vigyan"<br>
