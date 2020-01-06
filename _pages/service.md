@@ -18,14 +18,16 @@ permalink: /service/
 
 ### Program Committee/Area Chair 
 
-* COLT 2015, 2016, 2017, 2018
-- NIPS 2012, 2013, 2016, 2017
-- AAAI 2018
+* COLT 2015, 2016, 2017, 2018, 2019, 2020
+- NIPS 2012, 2013, 2016, 2017, 2018, 2019
+- AISTATS 2019
+- AAAI 2018, 2019
+- IJCAI 2019
 - FSTTCS 2017
 
 ### Journal Reviewer Duties
 
-- Journal of Machine Learning Research (*JMLR*)
+- Action Editor: Journal of Machine Learning Research (*JMLR*)
 - IEEE Transactions on Pattern Analysis & Machine Intelligence (*PAMI*)
 - IEEE Transactions on Signal Processing (*ITSP*)
 - IEEE Transactions on Information Theory (*ITIT*)
