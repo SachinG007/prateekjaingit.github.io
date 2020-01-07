@@ -53,7 +53,7 @@ I have been extremely lucky to have worked with some amazing postdocs/interns/re
 * Chi Jin, Summer'2017. (Assistant Professor, Princeton University)
 * Ashwin Kalyan, Summer'2017. (PhD Student, GeorgiaTech)
 * Rahul Kidambi, Summer'2017. (Postdoc, Cornell)
-* Ankit Goyal, Summer'2016. (PhD Student, UMichigan)
+* Ankit Goyal, Summer'2016. (PhD Student, Princeton)
 * Arun Sai Suggla, Summer'2016, 2018. (PhD Student, CMU)
 * Elena-Madalina Persu, Summer'2015. (PhD Student, MIT)
 * Gautam Kamath, Summer'2015. (Assistant Professor, UWaterloo)
@@ -68,11 +68,11 @@ I have been extremely lucky to have worked with some amazing postdocs/interns/re
 * Purushottam Kar, Summer'2012.
   (Assistant Professor, IIT Kanpur)
 * Sivakanth Gopi, Summer'2012.
-  (Phd Student, Princeton University)
+  (Postdoc, Microsoft Research Redmond)
 * Ankan Saha, Summer'2011.
   (Software Engineer, Linkedin)
 * Saurabh Gupta, Summer'2011.
-  (Phd Student, UC Berkeley)
+  (Assistant Professor, UIUC)
 
 
 
