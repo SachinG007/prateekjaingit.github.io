@@ -10,11 +10,11 @@ in <i>Proceedings of the Thirty-second Annual Conference on Neural Information P
 <a href="all_papers/DennisAVSSJ19.pdf">[URL]</a>
 
 <script type="text/javascript">
-var slide="";
+var slide="slides/DennisAVSSJ19.pdf";
 if(slide==""){
 document.write("");
 }else{
-document.write("<a href=>[Slides]</a>");
+document.write("<a href=slides/DennisAVSSJ19.pdf>[Slides]</a>");
 }
 var poster="posters/DennisAVSSJ19.pdf";
 var code="";
@@ -32,7 +32,22 @@ document.write("<a href=>[Code]</a>");
 
 
 
-<div id="toggleTextDennisAVSSJ19" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">.</div>
+<div id="toggleTextDennisAVSSJ19" style="display: none;font-size: 90%;margin-right: 0%;margin-top: 1.2em;margin-bottom: 1.3em;border: 1px solid silver;padding: 0.3em 0.5em;background: #ffffee">Recurrent Neural Networks (RNNs) capture long dependencies and context, and
+hence are the key component of typical sequential data based tasks. However, the
+sequential nature of RNNs dictates a large inference cost for long sequences even if
+the hardware supports parallelization. To induce long-term dependencies, and yet
+admit parallelization, we introduce novel shallow RNNs. In this architecture, the
+first layer splits the input sequence and runs several independent RNNs. The second
+layer consumes the output of the first layer using a second RNN thus capturing
+long dependencies. We provide theoretical justification for our architecture under
+weak assumptions that we verify on real-world benchmarks. Furthermore, we show
+that for time-series classification, our technique leads to substantially improved
+inference time over standard RNNs without compromising accuracy. For example,
+we can deploy audio-keyword classification on tiny Cortex M4 devices (100MHz
+processor, 256KB RAM, no DSP available) which was not possible using standard
+RNN models. Similarly, using ShaRNN in the popular Listen-Attend-Spell (LAS)
+architecture for phoneme classification, we can reduce the lag in phoneme
+classification by 10-12x while maintaining state-of-the-art accuracy.</div>
 <div id="bib_DennisAVSSJ19" class="bibtex noshow">
 <pre>
 @inproceedings{DennisAVSSJ19,
@@ -40,6 +55,7 @@ document.write("<a href=>[Code]</a>");
   title = {ShaRNN: A Method for Accurate Time-series Classification on Tiny Devices},
   booktitle = {Proceedings of the Thirty-second Annual Conference on Neural Information Processing Systems (NeurIPS)},
   year = {2019},
+  note = {slides/DennisAVSSJ19.pdf},
   url = {all_papers/DennisAVSSJ19.pdf}
 }
 </pre>
@@ -57,11 +73,11 @@ in <i>Proceedings of the Thirty-second Annual Conference on Neural Information P
 <a href="all_papers/TJNO19.pdf">[URL]</a>
 
 <script type="text/javascript">
-var slide="";
+var slide="slides/TJNO19.pdf";
 if(slide==""){
 document.write("");
 }else{
-document.write("<a href=>[Slides]</a>");
+document.write("<a href=slides/TJNO19.pdf>[Slides]</a>");
 }
 var poster="posters/TJNO19.pdf";
 var code="";
@@ -87,6 +103,7 @@ document.write("<a href=>[Code]</a>");
   title = {Efficient Algorithms for Smooth Minimax Optimization},
   booktitle = {Proceedings of the Thirty-second Annual Conference on Neural Information Processing Systems (NeurIPS)},
   year = {2019},
+  note = {slides/TJNO19.pdf},
   url = {all_papers/TJNO19.pdf}
 }
 </pre>
@@ -110,12 +127,12 @@ document.write("");
 }else{
 document.write("<a href=>[Slides]</a>");
 }
-var poster="posters/TJNO19.pdf";
+var poster="posters/ZhongSJD19.pdf";
 var code="";
 if(poster==""){
 document.write("");
 }else{
-document.write("<a href=posters/TJNO19.pdf>[Poster]</a>");
+document.write("<a href=posters/ZhongSJD19.pdf>[Poster]</a>");
 }
 if(code==""){
 document.write("");
@@ -151,11 +168,11 @@ in <i>Proceedings of the 32nd Annual ACM Symposium on User Interface Software an
 <a href="all_papers/PatilDPSSSVJ19.pdf">[URL]</a>
 
 <script type="text/javascript">
-var slide="slides/PatilDPSSSVJ19.pdf";
+var slide="slides/PatilDPSSSVJ19.pptx";
 if(slide==""){
 document.write("");
 }else{
-document.write("<a href=slides/PatilDPSSSVJ19.pdf>[Slides]</a>");
+document.write("<a href=slides/PatilDPSSSVJ19.pptx>[Slides]</a>");
 }
 var poster="";
 var code="";
@@ -182,7 +199,7 @@ document.write("<a href=>[Code]</a>");
   booktitle = {Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (UIST)},
   year = {2019},
   pages = {403--415},
-  note = {slides/PatilDPSSSVJ19.pdf},
+  note = {slides/PatilDPSSSVJ19.pptx},
   url = {all_papers/PatilDPSSSVJ19.pdf},
   doi = {https://doi.org/10.1145/3332165.3347881}
 }
@@ -198,7 +215,7 @@ in <i>Proceedings of the Annual Conference On Learning Theory (COLT)</i>,
 <br />
 <a href="javascript:toggleBibtex('JainNN19')">[BibTeX]</a>
 <a id="displayTextJainNN19" href="javascript:toggle('JainNN19');">[Abstract]</a>
-<a href="all_papers/JainNN19">[URL]</a>
+<a href="all_papers/JainNN19.pdf">[URL]</a>
 
 <script type="text/javascript">
 var slide="slides/JainNN19.pdf";
@@ -233,7 +250,7 @@ document.write("<a href=>[Code]</a>");
   year = {2019},
   pages = {1752--1755},
   note = {slides/JainNN19.pdf},
-  url = {all_papers/JainNN19}
+  url = {all_papers/JainNN19.pdf}
 }
 </pre>
 </div>
